@@ -13,7 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
     - name: ROS buildfarm
       # You may pin to the exact commit or the version.
       # uses: jspricke/ros-deb-builder-action@b228fee69dc963e2544ec895f3dd7098f9179585
