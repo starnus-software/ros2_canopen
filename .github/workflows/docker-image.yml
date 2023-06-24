@@ -1,0 +1,33 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "binary-testing" ]
+  pull_request:
+    branches: [ "binary-testing" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install buildfarm
+      run: > 
+        apt update &&
+        apt install -y python3-pip &&
+        apt install -y git &&
+        pip3 install empy &&
+        pip3 install jenkinsapi &&
+        pip3 install rosdistro &&
+    - name: Clone buildfarm
+      run: >
+        git clone git@github.com:ros-infrastructure/ros_buildfarm.git &&
+        pip3 install ros_buildfarm/
+    - name: Generate binary job
+      run: generate_release_script.py https://raw.githubusercontent.com/ros2/ros_buildfarm_config/ros2/index.yaml rolling default lely_core_libraries ubuntu jammy amd64 > release_job.sh
+    - name: Run Binary job
+      run: sh release_job.sh
+
