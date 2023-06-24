@@ -21,7 +21,7 @@ jobs:
         apt install -y git &&
         pip3 install empy &&
         pip3 install jenkinsapi &&
-        pip3 install rosdistro &&
+        pip3 install rosdistro
     - name: Clone buildfarm
       run: >
         git clone git@github.com:ros-infrastructure/ros_buildfarm.git &&
