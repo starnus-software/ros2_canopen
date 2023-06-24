@@ -30,9 +30,9 @@ jobs:
         repository: ros-infrastructure/ros_buildfarm
         path: './ros_buildfarm'
     - name: Install buildfarm
-      run: pip3 install ros_buildfarm/
+      run: . venv/bin/activate && pip3 install ros_buildfarm/
     - name: Generate binary job
-      run: generate_release_script.py https://raw.githubusercontent.com/ros2/ros_buildfarm_config/ros2/index.yaml rolling default lely_core_libraries ubuntu jammy amd64 > release_job.sh
+      run: . venv/bin/activate && generate_release_script.py https://raw.githubusercontent.com/ros2/ros_buildfarm_config/ros2/index.yaml rolling default lely_core_libraries ubuntu jammy amd64 > release_job.sh
     - name: Run Binary job
-      run: sh release_job.sh
+      run: . venv/bin/activate && sh release_job.sh
 
