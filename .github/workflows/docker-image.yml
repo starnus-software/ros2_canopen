@@ -14,25 +14,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Install buildfarm
-      run: > 
-        sudo apt update &&
-        sudo apt install -y python3-pip python3-venv python3-all &&
-        sudo apt install -y git &&
-        python3 -m venv venv &&
-        . venv/bin/activate &&
-        pip3 install empy &&
-        pip3 install jenkinsapi &&
-        pip3 install rosdistro
-    - name: Clone buildfarm
-      uses: actions/checkout@v3
+    - name: ROS buildfarm
+      # You may pin to the exact commit or the version.
+      # uses: jspricke/ros-deb-builder-action@b228fee69dc963e2544ec895f3dd7098f9179585
+      uses: jspricke/ros-deb-builder-action@v1.0
       with:
-        repository: ros-infrastructure/ros_buildfarm
-        path: './ros_buildfarm'
-    - name: Install buildfarm
-      run: . venv/bin/activate && pip3 install ros_buildfarm/
-    - name: Generate binary job
-      run: . venv/bin/activate && mkdir -p build/ && generate_release_script.py https://raw.githubusercontent.com/ros2/ros_buildfarm_config/ros2/index.yaml rolling default lely_core_libraries ubuntu jammy amd64 > build/release_job.sh
-    - name: Run Binary job
-      run: . venv/bin/activate && cd build && sh release_job.sh
+        # The ROS distribution codename to compile for.
+        ROS_DISTRO: rolling
+        # The Debian/Ubuntu distribution codename to compile for.
+        DEB_DISTRO: jammy
 
