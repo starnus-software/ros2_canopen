@@ -223,6 +223,43 @@ gpl_bus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gpl_bus.dir/build.make CMakeFiles/gpl_bus.dir/build
 .PHONY : gpl_bus/fast
 
+#=============================================================================
+# Target rules for targets named position_tick_client
+
+# Build rule for target.
+position_tick_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 position_tick_client
+.PHONY : position_tick_client
+
+# fast build rule for target.
+position_tick_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_tick_client.dir/build.make CMakeFiles/position_tick_client.dir/build
+.PHONY : position_tick_client/fast
+
+src/position_tick_motor.o: src/position_tick_motor.cpp.o
+.PHONY : src/position_tick_motor.o
+
+# target to build an object file
+src/position_tick_motor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_tick_client.dir/build.make CMakeFiles/position_tick_client.dir/src/position_tick_motor.cpp.o
+.PHONY : src/position_tick_motor.cpp.o
+
+src/position_tick_motor.i: src/position_tick_motor.cpp.i
+.PHONY : src/position_tick_motor.i
+
+# target to preprocess a source file
+src/position_tick_motor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_tick_client.dir/build.make CMakeFiles/position_tick_client.dir/src/position_tick_motor.cpp.i
+.PHONY : src/position_tick_motor.cpp.i
+
+src/position_tick_motor.s: src/position_tick_motor.cpp.s
+.PHONY : src/position_tick_motor.s
+
+# target to generate assembly for a file
+src/position_tick_motor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/position_tick_client.dir/build.make CMakeFiles/position_tick_client.dir/src/position_tick_motor.cpp.s
+.PHONY : src/position_tick_motor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,6 +277,10 @@ help:
 	@echo "... gpl_bus"
 	@echo "... gpl_bus_prepare"
 	@echo "... uninstall"
+	@echo "... position_tick_client"
+	@echo "... src/position_tick_motor.o"
+	@echo "... src/position_tick_motor.i"
+	@echo "... src/position_tick_motor.s"
 .PHONY : help
 
 

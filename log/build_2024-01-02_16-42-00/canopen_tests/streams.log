@@ -1,0 +1,483 @@
+[0.023s] Invoking command in '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_tests': AMENT_PREFIX_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_ros2_controllers:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_402_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_proxy_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_base_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_fake_slaves:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_core:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_ros2_controllers:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_402_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_proxy_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_base_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_fake_slaves:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_core:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_sim:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_dashboard:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_navigation_behaviours:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_navigation:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_msgs:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_maps:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_behavior_tree:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/path_tracking_pid:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/ira_laser_tools:/home/starnus/starnus_robot/install/starnus_rmf_dashboard:/home/starnus/starnus_robot/install/starnus_rmf:/home/starnus/starnus_robot/install/starnus_navigation_behaviours:/home/starnus/starnus_robot/install/starnus_msgs:/home/starnus/starnus_robot/install/starnus_maps:/home/starnus/starnus_robot/install/starnus_hardware_interfaces:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_viz:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_slam:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_description:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_bringup:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus:/home/starnus/starnus_robot/install/wms_bridge:/home/starnus/starnus_robot/install/starnus_viz:/home/starnus/starnus_robot/install/starnus_slam:/home/starnus/starnus_robot/install/starnus_sim:/home/starnus/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus_robot/install/starnus_navigation:/home/starnus/starnus_robot/install/starnus_driver:/home/starnus/starnus_robot/install/starnus_description:/home/starnus/starnus_robot/install/starnus_bringup:/home/starnus/starnus_robot/install/starnus_arduino_comms:/home/starnus/starnus_robot/install/starnus:/opt/ros/humble LD_LIBRARY_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_ros2_controllers/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_402_driver/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_proxy_driver/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_base_driver/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_core/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/canopen_tests -DCMAKE_INSTALL_PREFIX=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests
+[0.067s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 11.4.0
+[0.108s] -- Detecting C compiler ABI info
+[0.158s] -- Detecting C compiler ABI info - done
+[0.163s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.163s] -- Detecting C compile features
+[0.163s] -- Detecting C compile features - done
+[0.165s] -- Detecting CXX compiler ABI info
+[0.219s] -- Detecting CXX compiler ABI info - done
+[0.224s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.224s] -- Detecting CXX compile features
+[0.224s] -- Detecting CXX compile features - done
+[0.229s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.381s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.474s] -- Found lely_core_libraries: 0.2.7 (/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/cmake)
+[0.524s] -- Configuring done
+[0.529s] -- Generating done
+[0.530s] -- Build files have been written to: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_tests
+[0.533s] Invoked command in '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_tests' returned '0': AMENT_PREFIX_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_ros2_controllers:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_402_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_proxy_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_base_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_fake_slaves:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_core:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_ros2_controllers:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_402_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_proxy_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_base_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_fake_slaves:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_core:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_sim:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_dashboard:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_navigation_behaviours:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_navigation:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_msgs:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_maps:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_behavior_tree:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/path_tracking_pid:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/ira_laser_tools:/home/starnus/starnus_robot/install/starnus_rmf_dashboard:/home/starnus/starnus_robot/install/starnus_rmf:/home/starnus/starnus_robot/install/starnus_navigation_behaviours:/home/starnus/starnus_robot/install/starnus_msgs:/home/starnus/starnus_robot/install/starnus_maps:/home/starnus/starnus_robot/install/starnus_hardware_interfaces:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_viz:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_slam:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_description:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_bringup:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus:/home/starnus/starnus_robot/install/wms_bridge:/home/starnus/starnus_robot/install/starnus_viz:/home/starnus/starnus_robot/install/starnus_slam:/home/starnus/starnus_robot/install/starnus_sim:/home/starnus/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus_robot/install/starnus_navigation:/home/starnus/starnus_robot/install/starnus_driver:/home/starnus/starnus_robot/install/starnus_description:/home/starnus/starnus_robot/install/starnus_bringup:/home/starnus/starnus_robot/install/starnus_arduino_comms:/home/starnus/starnus_robot/install/starnus:/opt/ros/humble LD_LIBRARY_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_ros2_controllers/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_402_driver/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_proxy_driver/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_base_driver/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_core/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/canopen_tests -DCMAKE_INSTALL_PREFIX=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests
+[0.534s] Invoking command in '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_tests': AMENT_PREFIX_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_ros2_controllers:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_402_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_proxy_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_base_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_fake_slaves:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_core:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_ros2_controllers:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_402_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_proxy_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_base_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_fake_slaves:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_core:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_sim:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_dashboard:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_navigation_behaviours:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_navigation:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_msgs:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_maps:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_behavior_tree:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/path_tracking_pid:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/ira_laser_tools:/home/starnus/starnus_robot/install/starnus_rmf_dashboard:/home/starnus/starnus_robot/install/starnus_rmf:/home/starnus/starnus_robot/install/starnus_navigation_behaviours:/home/starnus/starnus_robot/install/starnus_msgs:/home/starnus/starnus_robot/install/starnus_maps:/home/starnus/starnus_robot/install/starnus_hardware_interfaces:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_viz:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_slam:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_description:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_bringup:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus:/home/starnus/starnus_robot/install/wms_bridge:/home/starnus/starnus_robot/install/starnus_viz:/home/starnus/starnus_robot/install/starnus_slam:/home/starnus/starnus_robot/install/starnus_sim:/home/starnus/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus_robot/install/starnus_navigation:/home/starnus/starnus_robot/install/starnus_driver:/home/starnus/starnus_robot/install/starnus_description:/home/starnus/starnus_robot/install/starnus_bringup:/home/starnus/starnus_robot/install/starnus_arduino_comms:/home/starnus/starnus_robot/install/starnus:/opt/ros/humble LD_LIBRARY_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_ros2_controllers/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_402_driver/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_proxy_driver/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_base_driver/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_core/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_tests -- -j20 -l20
+[0.574s] Built target cia402_system_prepare
+[0.574s] Built target canopen_system_prepare
+[0.575s] Built target simple_prepare
+[0.575s] Built target cia402_prepare
+[0.579s] Built target cia402_lifecycle_prepare
+[0.583s] Built target simple_lifecycle_prepare
+[0.583s] Built target robot_control_prepare
+[0.587s] Built target cia402_diagnostics_prepare
+[0.587s] Built target simple_diagnostics_prepare
+[0.882s] cia402_device_1: writing 4 bytes to 0x1400/1: 02 02 00 80
+[0.882s] cia402_device_1: writing 1 bytes to 0x1600/0: 00
+[0.882s] cia402_device_1: writing 4 bytes to 0x1600/1: 10 00 40 60
+[0.882s] cia402_device_1: writing 4 bytes to 0x1600/2: 08 00 60 60
+[0.882s] cia402_device_1: writing 1 bytes to 0x1600/0: 02
+[0.882s] cia402_device_1: writing 4 bytes to 0x1400/1: 02 02 00 00
+[0.882s] cia402_device_1: writing 4 bytes to 0x1401/1: 02 03 00 80
+[0.882s] cia402_device_1: writing 1 bytes to 0x1601/0: 00
+[0.882s] cia402_device_1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[0.882s] cia402_device_1: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[0.882s] cia402_device_1: writing 1 bytes to 0x1601/0: 02
+[0.883s] cia402_device_1: writing 4 bytes to 0x1401/1: 02 03 00 00
+[0.883s] cia402_device_1: writing 4 bytes to 0x1800/1: 82 01 00 80
+[0.883s] cia402_device_1: writing 1 bytes to 0x1A00/0: 00
+[0.883s] cia402_device_1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[0.883s] cia402_device_1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[0.883s] cia402_device_1: writing 1 bytes to 0x1A00/0: 02
+[0.883s] cia402_device_1: writing 4 bytes to 0x1800/1: 82 01 00 00
+[0.883s] cia402_device_1: writing 4 bytes to 0x1801/1: 82 02 00 80
+[0.883s] cia402_device_1: writing 1 bytes to 0x1A01/0: 00
+[0.883s] cia402_device_1: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[0.883s] cia402_device_1: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[0.883s] cia402_device_1: writing 1 bytes to 0x1A01/0: 02
+[0.884s] cia402_device_1: writing 4 bytes to 0x1801/1: 82 02 00 00
+[0.884s] cia402_device_1: writing 4 bytes to 0x1802/1: 82 03 00 C0
+[0.884s] cia402_device_1: writing 1 bytes to 0x60C2/1: 32
+[0.884s] cia402_device_1: writing 1 bytes to 0x60C2/2: FD
+[0.990s] joint_1: writing 4 bytes to 0x1400/1: 02 02 00 80
+[0.990s] joint_1: writing 1 bytes to 0x1600/0: 00
+[0.990s] joint_1: writing 4 bytes to 0x1600/1: 10 00 40 60
+[0.990s] joint_1: writing 4 bytes to 0x1600/2: 08 00 60 60
+[0.990s] joint_1: writing 1 bytes to 0x1600/0: 02
+[0.990s] joint_1: writing 4 bytes to 0x1400/1: 02 02 00 00
+[0.990s] joint_1: writing 4 bytes to 0x1401/1: 02 03 00 80
+[0.990s] joint_1: writing 1 bytes to 0x1601/0: 00
+[0.990s] joint_1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[0.991s] joint_1: writing 1 bytes to 0x1601/0: 01
+[0.991s] joint_1: writing 4 bytes to 0x1401/1: 02 03 00 00
+[0.991s] joint_1: writing 4 bytes to 0x1800/1: 82 01 00 80
+[0.991s] joint_1: writing 1 bytes to 0x1800/2: 01
+[0.991s] joint_1: writing 1 bytes to 0x1A00/0: 00
+[0.991s] joint_1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[0.991s] joint_1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[0.991s] joint_1: writing 1 bytes to 0x1A00/0: 02
+[0.991s] joint_1: writing 4 bytes to 0x1800/1: 82 01 00 00
+[0.991s] joint_1: writing 4 bytes to 0x1801/1: 82 02 00 80
+[0.991s] joint_1: writing 1 bytes to 0x1801/2: 01
+[0.992s] joint_1: writing 1 bytes to 0x1A01/0: 00
+[0.992s] joint_1: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[0.992s] joint_1: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[0.992s] joint_1: writing 1 bytes to 0x1A01/0: 02
+[0.992s] joint_1: writing 4 bytes to 0x1801/1: 82 02 00 00
+[0.992s] joint_1: writing 1 bytes to 0x60C2/1: 32
+[0.992s] joint_1: writing 1 bytes to 0x60C2/2: FD
+[0.992s] joint_1: writing 4 bytes to 0x6081/0: E8 03 00 00
+[0.992s] joint_1: writing 4 bytes to 0x6083/0: D0 07 00 00
+[0.992s] joint_1: writing 1 bytes to 0x6060/0: 07
+[0.992s] joint_2: writing 4 bytes to 0x1400/1: 03 02 00 80
+[0.993s] joint_2: writing 1 bytes to 0x1600/0: 00
+[0.993s] joint_2: writing 4 bytes to 0x1600/1: 10 00 40 60
+[0.993s] joint_2: writing 4 bytes to 0x1600/2: 08 00 60 60
+[0.993s] joint_2: writing 1 bytes to 0x1600/0: 02
+[0.993s] joint_2: writing 4 bytes to 0x1400/1: 03 02 00 00
+[0.993s] joint_2: writing 4 bytes to 0x1401/1: 03 03 00 80
+[0.993s] joint_2: writing 1 bytes to 0x1601/0: 00
+[0.993s] joint_2: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[0.993s] joint_2: writing 1 bytes to 0x1601/0: 01
+[0.993s] joint_2: writing 4 bytes to 0x1401/1: 03 03 00 00
+[0.993s] joint_2: writing 4 bytes to 0x1800/1: 83 01 00 80
+[0.994s] joint_2: writing 1 bytes to 0x1800/2: 01
+[0.994s] joint_2: writing 1 bytes to 0x1A00/0: 00
+[0.994s] joint_2: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[0.994s] joint_2: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[0.994s] joint_2: writing 1 bytes to 0x1A00/0: 02
+[0.994s] joint_2: writing 4 bytes to 0x1800/1: 83 01 00 00
+[0.994s] joint_2: writing 4 bytes to 0x1801/1: 83 02 00 80
+[0.994s] joint_2: writing 1 bytes to 0x1801/2: 01
+[0.994s] joint_2: writing 1 bytes to 0x1A01/0: 00
+[0.994s] joint_2: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[0.994s] joint_2: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[0.994s] joint_2: writing 1 bytes to 0x1A01/0: 02
+[0.995s] joint_2: writing 4 bytes to 0x1801/1: 83 02 00 00
+[0.995s] joint_2: writing 1 bytes to 0x60C2/1: 32
+[0.995s] joint_2: writing 1 bytes to 0x60C2/2: FD
+[0.995s] joint_2: writing 4 bytes to 0x6081/0: E8 03 00 00
+[0.995s] joint_2: writing 4 bytes to 0x6083/0: D0 07 00 00
+[0.995s] joint_2: writing 1 bytes to 0x6060/0: 07
+[0.995s] Built target simple_lifecycle
+[1.019s] Built target simple
+[1.023s] Built target cia402_lifecycle
+[1.133s] Built target robot_control
+[1.192s] cia402_device_1: writing 1 bytes to 0x1600/0: 00
+[1.192s] cia402_device_1: writing 4 bytes to 0x1600/1: 10 00 40 60
+[1.192s] cia402_device_1: writing 4 bytes to 0x1600/2: 08 00 60 60
+[1.192s] cia402_device_1: writing 1 bytes to 0x1600/0: 02
+[1.192s] cia402_device_1: writing 4 bytes to 0x1400/1: 02 02 00 00
+[1.192s] cia402_device_1: writing 1 bytes to 0x1601/0: 00
+[1.192s] cia402_device_1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[1.192s] cia402_device_1: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[1.193s] cia402_device_1: writing 1 bytes to 0x1601/0: 02
+[1.193s] cia402_device_1: writing 4 bytes to 0x1401/1: 02 03 00 00
+[1.193s] cia402_device_1: writing 1 bytes to 0x1A00/0: 00
+[1.193s] cia402_device_1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[1.193s] cia402_device_1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[1.193s] cia402_device_1: writing 1 bytes to 0x1A00/0: 02
+[1.193s] cia402_device_1: writing 4 bytes to 0x1800/1: 82 01 00 00
+[1.193s] cia402_device_1: writing 1 bytes to 0x1A01/0: 00
+[1.193s] cia402_device_1: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[1.193s] cia402_device_1: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[1.193s] cia402_device_1: writing 1 bytes to 0x1A01/0: 02
+[1.194s] cia402_device_1: writing 4 bytes to 0x1801/1: 82 02 00 00
+[1.194s] cia402_device_1: writing 1 bytes to 0x60C2/1: 32
+[1.194s] cia402_device_1: writing 1 bytes to 0x60C2/2: FD
+[1.194s] cia402_device_1: writing 4 bytes to 0x6081/0: E8 03 00 00
+[1.194s] cia402_device_1: writing 4 bytes to 0x6083/0: D0 07 00 00
+[1.194s] cia402_device_2: writing 1 bytes to 0x1600/0: 00
+[1.194s] cia402_device_2: writing 4 bytes to 0x1600/1: 10 00 40 60
+[1.194s] cia402_device_2: writing 4 bytes to 0x1600/2: 08 00 60 60
+[1.194s] cia402_device_2: writing 1 bytes to 0x1600/0: 02
+[1.194s] cia402_device_2: writing 4 bytes to 0x1400/1: 03 02 00 00
+[1.194s] cia402_device_2: writing 1 bytes to 0x1601/0: 00
+[1.194s] cia402_device_2: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[1.194s] cia402_device_2: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[1.194s] cia402_device_2: writing 1 bytes to 0x1601/0: 02
+[1.195s] cia402_device_2: writing 4 bytes to 0x1401/1: 03 03 00 00
+[1.195s] cia402_device_2: writing 1 bytes to 0x1A00/0: 00
+[1.195s] cia402_device_2: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[1.195s] cia402_device_2: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[1.195s] cia402_device_2: writing 1 bytes to 0x1A00/0: 02
+[1.195s] cia402_device_2: writing 4 bytes to 0x1800/1: 83 01 00 00
+[1.195s] cia402_device_2: writing 1 bytes to 0x1A01/0: 00
+[1.195s] cia402_device_2: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[1.195s] cia402_device_2: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[1.195s] cia402_device_2: writing 1 bytes to 0x1A01/0: 02
+[1.195s] cia402_device_2: writing 4 bytes to 0x1801/1: 83 02 00 00
+[1.195s] cia402_device_2: writing 1 bytes to 0x60C2/1: 32
+[1.195s] cia402_device_2: writing 1 bytes to 0x60C2/2: FD
+[1.196s] cia402_device_2: writing 4 bytes to 0x6081/0: E8 03 00 00
+[1.196s] cia402_device_2: writing 4 bytes to 0x6083/0: D0 07 00 00
+[1.196s] cia402_device_3: writing 1 bytes to 0x1600/0: 00
+[1.196s] cia402_device_3: writing 4 bytes to 0x1600/1: 10 00 40 60
+[1.196s] cia402_device_3: writing 4 bytes to 0x1600/2: 08 00 60 60
+[1.196s] cia402_device_3: writing 1 bytes to 0x1600/0: 02
+[1.196s] cia402_device_3: writing 4 bytes to 0x1400/1: 04 02 00 00
+[1.196s] cia402_device_3: writing 1 bytes to 0x1601/0: 00
+[1.196s] cia402_device_3: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[1.196s] cia402_device_3: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[1.196s] cia402_device_3: writing 1 bytes to 0x1601/0: 02
+[1.196s] cia402_device_3: writing 4 bytes to 0x1401/1: 04 03 00 00
+[1.196s] cia402_device_3: writing 1 bytes to 0x1A00/0: 00
+[1.196s] cia402_device_3: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[1.197s] cia402_device_3: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[1.197s] cia402_device_3: writing 1 bytes to 0x1A00/0: 02
+[1.197s] cia402_device_3: writing 4 bytes to 0x1800/1: 84 01 00 00
+[1.197s] cia402_device_3: writing 1 bytes to 0x1A01/0: 00
+[1.197s] cia402_device_3: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[1.197s] cia402_device_3: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[1.197s] cia402_device_3: writing 1 bytes to 0x1A01/0: 02
+[1.197s] cia402_device_3: writing 4 bytes to 0x1801/1: 84 02 00 00
+[1.197s] cia402_device_3: writing 1 bytes to 0x60C2/1: 32
+[1.197s] cia402_device_3: writing 1 bytes to 0x60C2/2: FD
+[1.197s] cia402_device_3: writing 4 bytes to 0x6081/0: E8 03 00 00
+[1.197s] cia402_device_3: writing 4 bytes to 0x6083/0: D0 07 00 00
+[1.221s] Built target canopen_system
+[1.261s] cia402_device_1: writing 1 bytes to 0x1600/0: 00
+[1.261s] cia402_device_1: writing 4 bytes to 0x1600/1: 10 00 40 60
+[1.261s] cia402_device_1: writing 4 bytes to 0x1600/2: 08 00 60 60
+[1.262s] cia402_device_1: writing 1 bytes to 0x1600/0: 02
+[1.262s] cia402_device_1: writing 4 bytes to 0x1400/1: 02 02 00 00
+[1.262s] cia402_device_1: writing 1 bytes to 0x1601/0: 00
+[1.262s] cia402_device_1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[1.262s] cia402_device_1: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[1.262s] cia402_device_1: writing 1 bytes to 0x1601/0: 02
+[1.262s] cia402_device_1: writing 4 bytes to 0x1401/1: 02 03 00 00
+[1.262s] cia402_device_1: writing 1 bytes to 0x1A00/0: 00
+[1.262s] cia402_device_1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[1.262s] cia402_device_1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[1.262s] cia402_device_1: writing 1 bytes to 0x1A00/0: 02
+[1.262s] cia402_device_1: writing 4 bytes to 0x1800/1: 82 01 00 00
+[1.262s] cia402_device_1: writing 1 bytes to 0x1A01/0: 00
+[1.262s] cia402_device_1: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[1.263s] cia402_device_1: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[1.263s] cia402_device_1: writing 1 bytes to 0x1A01/0: 02
+[1.263s] cia402_device_1: writing 4 bytes to 0x1801/1: 82 02 00 00
+[1.263s] cia402_device_1: writing 1 bytes to 0x60C2/1: 32
+[1.263s] cia402_device_1: writing 1 bytes to 0x60C2/2: FD
+[1.263s] cia402_device_1: writing 4 bytes to 0x6081/0: E8 03 00 00
+[1.263s] cia402_device_1: writing 4 bytes to 0x6083/0: D0 07 00 00
+[1.314s] Built target simple_diagnostics
+[1.326s] Built target cia402_diagnostics
+[1.358s] cia402_device_1: writing 1 bytes to 0x1600/0: 00
+[1.359s] cia402_device_1: writing 4 bytes to 0x1600/1: 10 00 40 60
+[1.359s] cia402_device_1: writing 4 bytes to 0x1600/2: 08 00 60 60
+[1.359s] cia402_device_1: writing 1 bytes to 0x1600/0: 02
+[1.359s] cia402_device_1: writing 4 bytes to 0x1400/1: 02 02 00 00
+[1.359s] cia402_device_1: writing 1 bytes to 0x1601/0: 00
+[1.359s] cia402_device_1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[1.359s] cia402_device_1: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[1.360s] cia402_device_1: writing 1 bytes to 0x1601/0: 02
+[1.360s] cia402_device_1: writing 4 bytes to 0x1401/1: 02 03 00 00
+[1.360s] cia402_device_1: writing 1 bytes to 0x1A00/0: 00
+[1.360s] cia402_device_1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[1.360s] cia402_device_1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[1.360s] cia402_device_1: writing 1 bytes to 0x1A00/0: 02
+[1.360s] cia402_device_1: writing 4 bytes to 0x1800/1: 82 01 00 00
+[1.360s] cia402_device_1: writing 1 bytes to 0x1A01/0: 00
+[1.360s] cia402_device_1: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[1.360s] cia402_device_1: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[1.360s] cia402_device_1: writing 1 bytes to 0x1A01/0: 02
+[1.360s] cia402_device_1: writing 4 bytes to 0x1801/1: 82 02 00 00
+[1.360s] cia402_device_1: writing 1 bytes to 0x60C2/1: 32
+[1.361s] cia402_device_1: writing 1 bytes to 0x60C2/2: FD
+[1.361s] cia402_device_1: writing 4 bytes to 0x6081/0: E8 03 00 00
+[1.361s] cia402_device_1: writing 4 bytes to 0x6083/0: D0 07 00 00
+[1.361s] cia402_device_2: writing 1 bytes to 0x1600/0: 00
+[1.361s] cia402_device_2: writing 4 bytes to 0x1600/1: 10 00 40 60
+[1.361s] cia402_device_2: writing 4 bytes to 0x1600/2: 08 00 60 60
+[1.361s] cia402_device_2: writing 1 bytes to 0x1600/0: 02
+[1.361s] cia402_device_2: writing 4 bytes to 0x1400/1: 03 02 00 00
+[1.361s] cia402_device_2: writing 1 bytes to 0x1601/0: 00
+[1.361s] cia402_device_2: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[1.361s] cia402_device_2: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[1.361s] cia402_device_2: writing 1 bytes to 0x1601/0: 02
+[1.361s] cia402_device_2: writing 4 bytes to 0x1401/1: 03 03 00 00
+[1.362s] cia402_device_2: writing 1 bytes to 0x1A00/0: 00
+[1.362s] cia402_device_2: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[1.362s] cia402_device_2: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[1.362s] cia402_device_2: writing 1 bytes to 0x1A00/0: 02
+[1.362s] cia402_device_2: writing 4 bytes to 0x1800/1: 83 01 00 00
+[1.362s] cia402_device_2: writing 1 bytes to 0x1A01/0: 00
+[1.362s] cia402_device_2: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[1.362s] cia402_device_2: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[1.362s] cia402_device_2: writing 1 bytes to 0x1A01/0: 02
+[1.362s] cia402_device_2: writing 4 bytes to 0x1801/1: 83 02 00 00
+[1.362s] cia402_device_2: writing 1 bytes to 0x60C2/1: 32
+[1.362s] cia402_device_2: writing 1 bytes to 0x60C2/2: FD
+[1.362s] cia402_device_2: writing 4 bytes to 0x6081/0: E8 03 00 00
+[1.362s] cia402_device_2: writing 4 bytes to 0x6083/0: D0 07 00 00
+[1.363s] cia402_device_3: writing 1 bytes to 0x1600/0: 00
+[1.363s] cia402_device_3: writing 4 bytes to 0x1600/1: 10 00 40 60
+[1.363s] cia402_device_3: writing 4 bytes to 0x1600/2: 08 00 60 60
+[1.363s] cia402_device_3: writing 1 bytes to 0x1600/0: 02
+[1.363s] cia402_device_3: writing 4 bytes to 0x1400/1: 04 02 00 00
+[1.363s] cia402_device_3: writing 1 bytes to 0x1601/0: 00
+[1.363s] cia402_device_3: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[1.363s] cia402_device_3: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[1.363s] cia402_device_3: writing 1 bytes to 0x1601/0: 02
+[1.363s] cia402_device_3: writing 4 bytes to 0x1401/1: 04 03 00 00
+[1.363s] cia402_device_3: writing 1 bytes to 0x1A00/0: 00
+[1.363s] cia402_device_3: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[1.363s] cia402_device_3: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[1.363s] cia402_device_3: writing 1 bytes to 0x1A00/0: 02
+[1.363s] cia402_device_3: writing 4 bytes to 0x1800/1: 84 01 00 00
+[1.363s] cia402_device_3: writing 1 bytes to 0x1A01/0: 00
+[1.364s] cia402_device_3: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[1.364s] cia402_device_3: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[1.364s] cia402_device_3: writing 1 bytes to 0x1A01/0: 02
+[1.364s] cia402_device_3: writing 4 bytes to 0x1801/1: 84 02 00 00
+[1.364s] cia402_device_3: writing 1 bytes to 0x60C2/1: 32
+[1.364s] cia402_device_3: writing 1 bytes to 0x60C2/2: FD
+[1.364s] cia402_device_3: writing 4 bytes to 0x6081/0: E8 03 00 00
+[1.364s] cia402_device_3: writing 4 bytes to 0x6083/0: D0 07 00 00
+[1.364s] cia402_device_4: writing 1 bytes to 0x1600/0: 00
+[1.364s] cia402_device_4: writing 4 bytes to 0x1600/1: 10 00 40 60
+[1.364s] cia402_device_4: writing 4 bytes to 0x1600/2: 08 00 60 60
+[1.364s] cia402_device_4: writing 1 bytes to 0x1600/0: 02
+[1.364s] cia402_device_4: writing 4 bytes to 0x1400/1: 05 02 00 00
+[1.364s] cia402_device_4: writing 1 bytes to 0x1601/0: 00
+[1.364s] cia402_device_4: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[1.364s] cia402_device_4: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[1.365s] cia402_device_4: writing 1 bytes to 0x1601/0: 02
+[1.365s] cia402_device_4: writing 4 bytes to 0x1401/1: 05 03 00 00
+[1.365s] cia402_device_4: writing 1 bytes to 0x1A00/0: 00
+[1.365s] cia402_device_4: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[1.365s] cia402_device_4: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[1.365s] cia402_device_4: writing 1 bytes to 0x1A00/0: 02
+[1.365s] cia402_device_4: writing 4 bytes to 0x1800/1: 85 01 00 00
+[1.365s] cia402_device_4: writing 1 bytes to 0x1A01/0: 00
+[1.365s] cia402_device_4: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[1.365s] cia402_device_4: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[1.365s] cia402_device_4: writing 1 bytes to 0x1A01/0: 02
+[1.365s] cia402_device_4: writing 4 bytes to 0x1801/1: 85 02 00 00
+[1.365s] cia402_device_4: writing 1 bytes to 0x60C2/1: 32
+[1.365s] cia402_device_4: writing 1 bytes to 0x60C2/2: FD
+[1.365s] cia402_device_4: writing 4 bytes to 0x6081/0: E8 03 00 00
+[1.366s] cia402_device_4: writing 4 bytes to 0x6083/0: D0 07 00 00
+[1.366s] cia402_device_5: writing 1 bytes to 0x1600/0: 00
+[1.366s] cia402_device_5: writing 4 bytes to 0x1600/1: 10 00 40 60
+[1.366s] cia402_device_5: writing 4 bytes to 0x1600/2: 08 00 60 60
+[1.366s] cia402_device_5: writing 1 bytes to 0x1600/0: 02
+[1.366s] cia402_device_5: writing 4 bytes to 0x1400/1: 06 02 00 00
+[1.366s] cia402_device_5: writing 1 bytes to 0x1601/0: 00
+[1.366s] cia402_device_5: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[1.366s] cia402_device_5: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[1.366s] cia402_device_5: writing 1 bytes to 0x1601/0: 02
+[1.366s] cia402_device_5: writing 4 bytes to 0x1401/1: 06 03 00 00
+[1.366s] cia402_device_5: writing 1 bytes to 0x1A00/0: 00
+[1.366s] cia402_device_5: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[1.366s] cia402_device_5: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[1.366s] cia402_device_5: writing 1 bytes to 0x1A00/0: 02
+[1.366s] cia402_device_5: writing 4 bytes to 0x1800/1: 86 01 00 00
+[1.366s] cia402_device_5: writing 1 bytes to 0x1A01/0: 00
+[1.367s] cia402_device_5: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[1.367s] cia402_device_5: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[1.367s] cia402_device_5: writing 1 bytes to 0x1A01/0: 02
+[1.367s] cia402_device_5: writing 4 bytes to 0x1801/1: 86 02 00 00
+[1.367s] cia402_device_5: writing 1 bytes to 0x60C2/1: 32
+[1.367s] cia402_device_5: writing 1 bytes to 0x60C2/2: FD
+[1.367s] cia402_device_5: writing 4 bytes to 0x6081/0: E8 03 00 00
+[1.367s] cia402_device_5: writing 4 bytes to 0x6083/0: D0 07 00 00
+[1.367s] cia402_device_6: writing 1 bytes to 0x1600/0: 00
+[1.367s] cia402_device_6: writing 4 bytes to 0x1600/1: 10 00 40 60
+[1.367s] cia402_device_6: writing 4 bytes to 0x1600/2: 08 00 60 60
+[1.367s] cia402_device_6: writing 1 bytes to 0x1600/0: 02
+[1.367s] cia402_device_6: writing 4 bytes to 0x1400/1: 07 02 00 00
+[1.367s] cia402_device_6: writing 1 bytes to 0x1601/0: 00
+[1.367s] cia402_device_6: writing 4 bytes to 0x1601/1: 20 00 7A 60
+[1.367s] cia402_device_6: writing 4 bytes to 0x1601/2: 20 00 FF 60
+[1.367s] cia402_device_6: writing 1 bytes to 0x1601/0: 02
+[1.368s] cia402_device_6: writing 4 bytes to 0x1401/1: 07 03 00 00
+[1.368s] cia402_device_6: writing 1 bytes to 0x1A00/0: 00
+[1.368s] cia402_device_6: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[1.368s] cia402_device_6: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[1.368s] cia402_device_6: writing 1 bytes to 0x1A00/0: 02
+[1.368s] cia402_device_6: writing 4 bytes to 0x1800/1: 87 01 00 00
+[1.368s] cia402_device_6: writing 1 bytes to 0x1A01/0: 00
+[1.368s] cia402_device_6: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[1.368s] cia402_device_6: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[1.368s] cia402_device_6: writing 1 bytes to 0x1A01/0: 02
+[1.368s] cia402_device_6: writing 4 bytes to 0x1801/1: 87 02 00 00
+[1.368s] cia402_device_6: writing 1 bytes to 0x60C2/1: 32
+[1.368s] cia402_device_6: writing 1 bytes to 0x60C2/2: FD
+[1.368s] cia402_device_6: writing 4 bytes to 0x6081/0: E8 03 00 00
+[1.368s] cia402_device_6: writing 4 bytes to 0x6083/0: D0 07 00 00
+[1.376s] Built target cia402_system
+[1.486s] Built target cia402
+[1.494s] Invoked command in '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_tests' returned '0': AMENT_PREFIX_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_ros2_controllers:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_402_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_proxy_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_base_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_fake_slaves:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_core:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_ros2_controllers:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_402_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_proxy_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_base_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_fake_slaves:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_core:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_sim:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_dashboard:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_navigation_behaviours:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_navigation:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_msgs:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_maps:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_behavior_tree:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/path_tracking_pid:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/ira_laser_tools:/home/starnus/starnus_robot/install/starnus_rmf_dashboard:/home/starnus/starnus_robot/install/starnus_rmf:/home/starnus/starnus_robot/install/starnus_navigation_behaviours:/home/starnus/starnus_robot/install/starnus_msgs:/home/starnus/starnus_robot/install/starnus_maps:/home/starnus/starnus_robot/install/starnus_hardware_interfaces:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_viz:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_slam:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_description:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_bringup:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus:/home/starnus/starnus_robot/install/wms_bridge:/home/starnus/starnus_robot/install/starnus_viz:/home/starnus/starnus_robot/install/starnus_slam:/home/starnus/starnus_robot/install/starnus_sim:/home/starnus/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus_robot/install/starnus_navigation:/home/starnus/starnus_robot/install/starnus_driver:/home/starnus/starnus_robot/install/starnus_description:/home/starnus/starnus_robot/install/starnus_bringup:/home/starnus/starnus_robot/install/starnus_arduino_comms:/home/starnus/starnus_robot/install/starnus:/opt/ros/humble LD_LIBRARY_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_ros2_controllers/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_402_driver/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_proxy_driver/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_base_driver/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_core/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_tests -- -j20 -l20
+[1.520s] Invoking command in '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_tests': AMENT_PREFIX_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_ros2_controllers:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_402_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_proxy_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_base_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_fake_slaves:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_core:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_ros2_controllers:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_402_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_proxy_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_base_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_fake_slaves:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_core:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_sim:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_dashboard:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_navigation_behaviours:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_navigation:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_msgs:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_maps:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_behavior_tree:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/path_tracking_pid:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/ira_laser_tools:/home/starnus/starnus_robot/install/starnus_rmf_dashboard:/home/starnus/starnus_robot/install/starnus_rmf:/home/starnus/starnus_robot/install/starnus_navigation_behaviours:/home/starnus/starnus_robot/install/starnus_msgs:/home/starnus/starnus_robot/install/starnus_maps:/home/starnus/starnus_robot/install/starnus_hardware_interfaces:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_viz:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_slam:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_description:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_bringup:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus:/home/starnus/starnus_robot/install/wms_bridge:/home/starnus/starnus_robot/install/starnus_viz:/home/starnus/starnus_robot/install/starnus_slam:/home/starnus/starnus_robot/install/starnus_sim:/home/starnus/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus_robot/install/starnus_navigation:/home/starnus/starnus_robot/install/starnus_driver:/home/starnus/starnus_robot/install/starnus_description:/home/starnus/starnus_robot/install/starnus_bringup:/home/starnus/starnus_robot/install/starnus_arduino_comms:/home/starnus/starnus_robot/install/starnus:/opt/ros/humble LD_LIBRARY_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_ros2_controllers/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_402_driver/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_proxy_driver/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_base_driver/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_core/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_tests
+[1.525s] -- Install configuration: ""
+[1.525s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/simple/
+[1.525s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/simple//simple.eds
+[1.530s] -- Up-to-date: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/simple/
+[1.530s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/simple//master.dcf
+[1.531s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/simple//bus.yml
+[1.531s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/canopen_system/
+[1.531s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/canopen_system//ros2_controllers.yaml
+[1.531s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/canopen_system//simple.eds
+[1.531s] -- Up-to-date: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/canopen_system/
+[1.531s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/canopen_system//master.dcf
+[1.531s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/canopen_system//bus.yml
+[1.531s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_system/
+[1.531s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_system//cia402_slave.eds
+[1.531s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_system//ros2_controllers.yaml
+[1.531s] -- Up-to-date: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_system/
+[1.533s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_system//master.dcf
+[1.533s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_system//preprocessed_bus.yml
+[1.533s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_system//cia402_device_1.bin
+[1.534s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_system//bus.yml
+[1.534s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402/
+[1.534s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402//cia402_slave.eds
+[1.534s] -- Up-to-date: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402/
+[1.534s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_6.bin
+[1.534s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402//master.dcf
+[1.535s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_4.bin
+[1.535s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_5.bin
+[1.535s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_2.bin
+[1.535s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402//preprocessed_bus.yml
+[1.536s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_1.bin
+[1.536s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402//bus.yml
+[1.536s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402//cia402_device_3.bin
+[1.537s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle/
+[1.538s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle//cia402_slave.eds
+[1.538s] -- Up-to-date: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle/
+[1.538s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle//master.dcf
+[1.538s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle//cia402_device_1.bin
+[1.538s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_lifecycle//bus.yml
+[1.538s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics/
+[1.538s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//cia402_slave.eds
+[1.539s] -- Up-to-date: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics/
+[1.539s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//master.dcf
+[1.539s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//cia402_device_2.bin
+[1.539s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//preprocessed_bus.yml
+[1.539s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//cia402_device_1.bin
+[1.539s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//bus.yml
+[1.539s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/cia402_diagnostics//cia402_device_3.bin
+[1.540s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/simple_lifecycle/
+[1.540s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/simple_lifecycle//simple.eds
+[1.540s] -- Up-to-date: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/simple_lifecycle/
+[1.540s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/simple_lifecycle//master.dcf
+[1.540s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/simple_lifecycle//bus.yml
+[1.540s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/simple_diagnostics/
+[1.540s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/simple_diagnostics//simple.eds
+[1.540s] -- Up-to-date: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/simple_diagnostics/
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/simple_diagnostics//master.dcf
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/simple_diagnostics//preprocessed_bus.yml
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/simple_diagnostics//bus.yml
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/robot_control/
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/robot_control//cia402_slave.eds
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/robot_control//ros2_controllers.yaml
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/robot_control//prbt_0_1.dcf
+[1.541s] -- Up-to-date: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/robot_control/
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/robot_control//joint_1.bin
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/robot_control//master.dcf
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/robot_control//joint_2.bin
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/config/robot_control//bus.yml
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch/canopen_system.launch.py
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch/cia402_lifecycle_setup.launch.py
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch/proxy_diagnostics_setup.launch.py
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch/cia402_diagnostics_setup.launch.py
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch/view_urdf.launch.py
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch/proxy_lifecycle_setup.launch.py
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch/robot_control_setup.launch.py
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch/analyzers
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch/analyzers/cia402_diagnostic_analyzer.yaml
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch/analyzers/proxy_diagnostic_analyzer.yaml
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch/cia402_system.launch.py
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch/proxy_setup.launch.py
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch/cia402_setup.launch.py
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/rviz
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/rviz/robot_controller.rviz
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/urdf
+[1.541s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/urdf/robot_controller
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/urdf/robot_controller/robot_controller.macro.xacro
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/urdf/robot_controller/robot_controller.ros2_control.xacro
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/urdf/robot_controller/robot_controller.urdf.xacro
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/urdf/cia402_system
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/urdf/cia402_system/cia402_system.urdf.xacro
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/urdf/cia402_system/cia402_system.ros2_control.xacro
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/urdf/canopen_system
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/urdf/canopen_system/canopen_system.ros2_control.xacro
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/urdf/canopen_system/canopen_system.urdf.xacro
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch_tests
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch_tests/test_proxy_lifecycle_driver.py
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch_tests/test_cia402_driver.py
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch_tests/test_robot_control.py
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/launch_tests/test_proxy_driver.py
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/ament_index/resource_index/package_run_dependencies/canopen_tests
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/ament_index/resource_index/parent_prefix_path/canopen_tests
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/environment/ament_prefix_path.sh
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/environment/ament_prefix_path.dsv
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/environment/path.sh
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/environment/path.dsv
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/local_setup.bash
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/local_setup.sh
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/local_setup.zsh
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/local_setup.dsv
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/package.dsv
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/ament_index/resource_index/packages/canopen_tests
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/cmake/canopen_testsConfig.cmake
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/cmake/canopen_testsConfig-version.cmake
+[1.542s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_tests/share/canopen_tests/package.xml
+[1.542s] Invoked command in '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_tests' returned '0': AMENT_PREFIX_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_ros2_controllers:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_402_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_proxy_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_base_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_fake_slaves:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_core:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_ros2_controllers:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_402_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_proxy_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_base_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_fake_slaves:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_core:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_sim:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_dashboard:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_navigation_behaviours:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_navigation:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_msgs:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_maps:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_behavior_tree:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/path_tracking_pid:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/ira_laser_tools:/home/starnus/starnus_robot/install/starnus_rmf_dashboard:/home/starnus/starnus_robot/install/starnus_rmf:/home/starnus/starnus_robot/install/starnus_navigation_behaviours:/home/starnus/starnus_robot/install/starnus_msgs:/home/starnus/starnus_robot/install/starnus_maps:/home/starnus/starnus_robot/install/starnus_hardware_interfaces:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_viz:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_slam:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_description:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_bringup:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus:/home/starnus/starnus_robot/install/wms_bridge:/home/starnus/starnus_robot/install/starnus_viz:/home/starnus/starnus_robot/install/starnus_slam:/home/starnus/starnus_robot/install/starnus_sim:/home/starnus/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus_robot/install/starnus_navigation:/home/starnus/starnus_robot/install/starnus_driver:/home/starnus/starnus_robot/install/starnus_description:/home/starnus/starnus_robot/install/starnus_bringup:/home/starnus/starnus_robot/install/starnus_arduino_comms:/home/starnus/starnus_robot/install/starnus:/opt/ros/humble LD_LIBRARY_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_ros2_controllers/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_402_driver/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_proxy_driver/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_base_driver/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_core/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_tests

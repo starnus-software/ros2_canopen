@@ -51,11 +51,27 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/config_package/launch/" TYPE DIRECTORY FILES "/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/launch/")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/config_package/position_tick_client" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/config_package/position_tick_client")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/config_package/position_tick_client"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/config_package" TYPE EXECUTABLE FILES "/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/config_package/position_tick_client")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/config_package/position_tick_client" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/config_package/position_tick_client")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/config_package/position_tick_client"
+         OLD_RPATH "/opt/ros/humble/lib:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/config_package/position_tick_client")
+    endif()
+  endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/config_package/launch_tests/" TYPE DIRECTORY FILES "/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/launch_tests/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/config_package" TYPE DIRECTORY FILES "/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

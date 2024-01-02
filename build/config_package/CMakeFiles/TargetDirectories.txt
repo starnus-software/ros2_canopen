@@ -2,6 +2,7 @@
 /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/config_package/CMakeFiles/config_package_uninstall.dir
 /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/config_package/CMakeFiles/gpl_bus_prepare.dir
 /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/config_package/CMakeFiles/gpl_bus.dir
+/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/config_package/CMakeFiles/position_tick_client.dir
 /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/config_package/CMakeFiles/test.dir
 /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/config_package/CMakeFiles/edit_cache.dir
 /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/config_package/CMakeFiles/rebuild_cache.dir

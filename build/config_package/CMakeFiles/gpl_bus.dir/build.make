@@ -70,8 +70,7 @@ CMakeFiles/gpl_bus:
 
 gpl_bus: CMakeFiles/gpl_bus
 gpl_bus: CMakeFiles/gpl_bus.dir/build.make
-	cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/config/gpl_bus && cogen --input-file /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/config/gpl_bus/bus.yml --output-file /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/config_package/config/gpl_bus/preprocessed_bus.yml
-	cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/config/gpl_bus && sed 's|@BUS_CONFIG_PATH@|/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/config_package/share/config_package/config/gpl_bus|g' /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/config_package/config/gpl_bus/preprocessed_bus.yml > /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/config_package/config/gpl_bus/bus.yml
+	cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/config/gpl_bus && sed 's|@BUS_CONFIG_PATH@|/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/config_package/share/config_package/config/gpl_bus|g' /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/config/gpl_bus/bus.yml > /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/config_package/config/gpl_bus/bus.yml
 	cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/config/gpl_bus && dcfgen -v -d /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/config_package/config/gpl_bus/ -rS /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/config_package/config/gpl_bus/bus.yml
 .PHONY : gpl_bus
 
