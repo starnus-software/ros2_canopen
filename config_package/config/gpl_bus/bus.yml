@@ -1,0 +1,31 @@
+options:
+  dcf_path: install/config_package/share/config_package/config/gpl_bus
+
+master:
+  node_id: 1
+  package: "ros2_canopen::MasterDriver"
+  driver: "canopen_master_driver"
+  sync_period: 20000
+
+motorcontroller_2:
+  node_id: 2
+  driver: "ros2_canopen::Cia402Driver"
+  package: "canopen_402_driver"
+  dcf: "CL4-E-1-12.eds"
+
+# nodes:
+  # CL4-E-1-12:
+  #   node_id: 2
+  #   package: "canopen_master_driver"
+  #   driver: "ros2_canopen::MasterDriver"
+  # CL4-E-1-12:
+  #   node_id: 3
+  #   package: "canopen_master_driver"
+  #   driver: "ros2_canopen::MasterDriver"
+  # CL4-E-1-12:
+  #   node_id: 4
+  #   package: "canopen_master_driver"
+  #   driver: "ros2_canopen::MasterDriver"
+
+
+

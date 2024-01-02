@@ -1,0 +1,23 @@
+[ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/canopen_ros2_controllers.dir/src/canopen_proxy_controller.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/canopen_ros2_controllers.dir/src/cia402_device_controller.cpp.o[0m
+[ 37%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 37%] Built target gmock_main
+[ 43%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 43%] Built target gmock
+[ 50%] [32mBuilding CXX object CMakeFiles/test_load_canopen_proxy_controller.dir/test/test_load_canopen_proxy_controller.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/test_load_cia402_device_controller.dir/test/test_load_cia402_device_controller.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/test_load_cia402_robot_controller.dir/test/test_load_cia402_robot_controller.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable test_load_cia402_robot_controller[0m
+[ 75%] [32m[1mLinking CXX executable test_load_canopen_proxy_controller[0m
+[ 75%] Built target test_load_cia402_robot_controller
+[ 75%] Built target test_load_canopen_proxy_controller
+[ 81%] [32m[1mLinking CXX executable test_load_cia402_device_controller[0m
+[ 81%] Built target test_load_cia402_device_controller
+[ 87%] [32m[1mLinking CXX shared library libcanopen_ros2_controllers.so[0m
+[ 87%] Built target canopen_ros2_controllers
+[ 93%] [32mBuilding CXX object CMakeFiles/test_canopen_proxy_controller.dir/test/test_canopen_proxy_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_canopen_proxy_controller[0m
+[100%] Built target test_canopen_proxy_controller

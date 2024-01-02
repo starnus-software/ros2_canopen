@@ -1,0 +1,4 @@
+/bin/sh: 1: cd: can't cd to /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/config/single-db42
+gmake[2]: *** [CMakeFiles/single-db42.dir/build.make:73: single-db42] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/single-db42.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

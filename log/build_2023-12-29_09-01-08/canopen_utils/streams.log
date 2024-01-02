@@ -1,0 +1,23 @@
+[0.491s] Invoking command in '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/canopen_utils': AMENT_PREFIX_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_utils/prefix_override:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_utils/lib/python3.10/site-packages:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/canopen_utils build --build-base /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_utils/build install --record /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_utils/install.log --single-version-externally-managed
+[0.664s] running egg_info
+[0.664s] writing ../build/canopen_utils/canopen_utils.egg-info/PKG-INFO
+[0.664s] writing dependency_links to ../build/canopen_utils/canopen_utils.egg-info/dependency_links.txt
+[0.664s] writing entry points to ../build/canopen_utils/canopen_utils.egg-info/entry_points.txt
+[0.664s] writing requirements to ../build/canopen_utils/canopen_utils.egg-info/requires.txt
+[0.664s] writing top-level names to ../build/canopen_utils/canopen_utils.egg-info/top_level.txt
+[0.666s] reading manifest file '../build/canopen_utils/canopen_utils.egg-info/SOURCES.txt'
+[0.666s] adding license file 'LICENSE'
+[0.666s] writing manifest file '../build/canopen_utils/canopen_utils.egg-info/SOURCES.txt'
+[0.666s] running build
+[0.666s] running build_py
+[0.667s] running install
+[0.667s] running install_lib
+[0.668s] running install_data
+[0.668s] running install_egg_info
+[0.669s] removing '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_utils/lib/python3.10/site-packages/canopen_utils-0.2.7-py3.10.egg-info' (and everything under it)
+[0.669s] Copying ../build/canopen_utils/canopen_utils.egg-info to /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_utils/lib/python3.10/site-packages/canopen_utils-0.2.7-py3.10.egg-info
+[0.670s] running install_scripts
+[0.682s] Installing cyclic_tester script to /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_utils/lib/canopen_utils
+[0.682s] Installing simple_tester script to /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_utils/lib/canopen_utils
+[0.682s] writing list of installed files to '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_utils/install.log'
+[0.697s] Invoked command in '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/canopen_utils' returned '0': AMENT_PREFIX_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_utils/prefix_override:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_utils/lib/python3.10/site-packages:/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/canopen_utils build --build-base /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_utils/build install --record /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_utils/install.log --single-version-externally-managed

@@ -1,0 +1,29 @@
+[100%] Built target position_tick_client
+[100%] Built target gpl_bus_prepare
+[100%] Built target gpl_bus
+-- Install configuration: ""
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/config/gpl_bus/
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/config/gpl_bus//CL4-E-1-12.eds
+-- Up-to-date: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/config/gpl_bus/
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/config/gpl_bus//master.dcf
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/config/gpl_bus//master.bin
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/config/gpl_bus//bus.yml
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/lib/config_package/position_tick_client
+-- Set runtime path of "/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/lib/config_package/position_tick_client" to ""
+-- Up-to-date: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/gpl_ros_can.launch.py
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/ament_index/resource_index/package_run_dependencies/config_package
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/ament_index/resource_index/parent_prefix_path/config_package
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/environment/ament_prefix_path.sh
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/environment/ament_prefix_path.dsv
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/environment/path.sh
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/environment/path.dsv
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/local_setup.bash
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/local_setup.sh
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/local_setup.zsh
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/local_setup.dsv
+-- Up-to-date: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/package.dsv
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/ament_index/resource_index/packages/config_package
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/cmake/config_packageConfig.cmake
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/cmake/config_packageConfig-version.cmake
+-- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/install/config_package/share/config_package/package.xml

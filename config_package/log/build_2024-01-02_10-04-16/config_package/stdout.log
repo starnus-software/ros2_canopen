@@ -1,0 +1,37 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found canopen: 0.2.7 (/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/canopen/share/canopen/cmake)
+-- Found lely_core_libraries: 0.2.7 (/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/share/lely_core_libraries/cmake)
+-- Found canopen_interfaces: 0.2.7 (/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/canopen_interfaces/share/canopen_interfaces/cmake)
+-- Found canopen_core: 0.2.7 (/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/canopen_core/share/canopen_core/cmake)
+-- Found canopen_base_driver: 0.2.7 (/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/canopen_base_driver/share/canopen_base_driver/cmake)
+-- Found canopen_proxy_driver: 0.2.7 (/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake)
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/config_package/build/config_package
+[ 50%] [32mBuilding CXX object CMakeFiles/position_tick_client.dir/src/position_tick_motor.cpp.o[0m
+[ 50%] Built target gpl_bus_prepare
+[100%] [32m[1mLinking CXX executable position_tick_client[0m
+[100%] Built target position_tick_client

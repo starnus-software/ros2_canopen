@@ -1,0 +1,912 @@
+[0.009s] Invoking command in '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_viz:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_slam:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_description:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_bringup:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/canopen_utils:/home/starnus/starnus_robot/install/wms_bridge:/home/starnus/starnus_robot/install/starnus_viz:/home/starnus/starnus_robot/install/starnus_slam:/home/starnus/starnus_robot/install/starnus_sim:/home/starnus/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus_robot/install/starnus_navigation:/home/starnus/starnus_robot/install/starnus_driver:/home/starnus/starnus_robot/install/starnus_description:/home/starnus/starnus_robot/install/starnus_bringup:/home/starnus/starnus_robot/install/starnus_arduino_comms:/home/starnus/starnus_robot/install/starnus:/opt/ros/humble /usr/bin/cmake /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/lely_core_libraries -DCMAKE_INSTALL_PREFIX=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries
+[0.042s] -- The C compiler identification is GNU 11.4.0
+[0.073s] -- The CXX compiler identification is GNU 11.4.0
+[0.078s] -- Detecting C compiler ABI info
+[0.121s] -- Detecting C compiler ABI info - done
+[0.125s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.125s] -- Detecting C compile features
+[0.126s] -- Detecting C compile features - done
+[0.127s] -- Detecting CXX compiler ABI info
+[0.175s] -- Detecting CXX compiler ABI info - done
+[0.180s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.180s] -- Detecting CXX compile features
+[0.180s] -- Detecting CXX compile features - done
+[0.183s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.324s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.541s] -- Configuring done
+[0.544s] -- Generating done
+[0.544s] -- Build files have been written to: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries
+[0.549s] Invoked command in '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_viz:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_slam:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_description:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_bringup:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/canopen_utils:/home/starnus/starnus_robot/install/wms_bridge:/home/starnus/starnus_robot/install/starnus_viz:/home/starnus/starnus_robot/install/starnus_slam:/home/starnus/starnus_robot/install/starnus_sim:/home/starnus/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus_robot/install/starnus_navigation:/home/starnus/starnus_robot/install/starnus_driver:/home/starnus/starnus_robot/install/starnus_description:/home/starnus/starnus_robot/install/starnus_bringup:/home/starnus/starnus_robot/install/starnus_arduino_comms:/home/starnus/starnus_robot/install/starnus:/opt/ros/humble /usr/bin/cmake /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/lely_core_libraries -DCMAKE_INSTALL_PREFIX=/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries
+[0.549s] Invoking command in '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_viz:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_slam:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_description:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_bringup:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/canopen_utils:/home/starnus/starnus_robot/install/wms_bridge:/home/starnus/starnus_robot/install/starnus_viz:/home/starnus/starnus_robot/install/starnus_slam:/home/starnus/starnus_robot/install/starnus_sim:/home/starnus/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus_robot/install/starnus_navigation:/home/starnus/starnus_robot/install/starnus_driver:/home/starnus/starnus_robot/install/starnus_description:/home/starnus/starnus_robot/install/starnus_bringup:/home/starnus/starnus_robot/install/starnus_arduino_comms:/home/starnus/starnus_robot/install/starnus:/opt/ros/humble /usr/bin/cmake --build /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries -- -j20 -l20
+[0.580s] [ 12%] [34m[1mCreating directories for 'upstr_lely_core_libraries'[0m
+[0.586s] [ 12%] Built target ament_cmake_python_copy_cogen
+[0.586s] [ 12%] Built target ament_cmake_python_copy_cogen_setup
+[0.626s] [ 25%] [34m[1mPerforming download step (git clone) for 'upstr_lely_core_libraries'[0m
+[0.639s] Cloning into 'upstream'...
+[0.776s] running install_scripts
+[0.777s] running egg_info
+[0.777s] creating cogen.egg-info
+[0.777s] writing cogen.egg-info/PKG-INFO
+[0.777s] writing dependency_links to cogen.egg-info/dependency_links.txt
+[0.777s] writing entry points to cogen.egg-info/entry_points.txt
+[0.777s] writing top-level names to cogen.egg-info/top_level.txt
+[0.778s] writing manifest file 'cogen.egg-info/SOURCES.txt'
+[0.779s] reading manifest file 'cogen.egg-info/SOURCES.txt'
+[0.780s] writing manifest file 'cogen.egg-info/SOURCES.txt'
+[0.791s] running egg_info
+[0.792s] writing cogen.egg-info/PKG-INFO
+[0.792s] writing dependency_links to cogen.egg-info/dependency_links.txt
+[0.792s] writing entry points to cogen.egg-info/entry_points.txt
+[0.792s] writing top-level names to cogen.egg-info/top_level.txt
+[0.794s] reading manifest file 'cogen.egg-info/SOURCES.txt'
+[0.794s] writing manifest file 'cogen.egg-info/SOURCES.txt'
+[0.795s] Installing cogen script to scripts
+[0.796s] [ 25%] Built target ament_cmake_python_build_cogen_egg
+[0.814s] [ 25%] Built target ament_cmake_python_build_cogen_scripts
+[3.776s] HEAD is now at 7824cbb2 release v2.3.2
+[3.814s] [ 37%] [34m[1mPerforming update step for 'upstr_lely_core_libraries'[0m
+[3.874s] HEAD is now at 7824cbb2 release v2.3.2
+[3.877s] Checking patch configure.ac...
+[3.877s] Checking patch python/dcf-tools/Makefile.am...
+[3.877s] Applied patch configure.ac cleanly.
+[3.877s] Applied patch python/dcf-tools/Makefile.am cleanly.
+[3.883s] [ 50%] [34m[1mNo patch step for 'upstr_lely_core_libraries'[0m
+[3.898s] [ 62%] [34m[1mPerforming configure step for 'upstr_lely_core_libraries'[0m
+[5.907s] libtoolize: putting auxiliary files in '.'.
+[5.907s] libtoolize: copying file './ltmain.sh'
+[5.922s] libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+[5.922s] libtoolize: copying file 'm4/libtool.m4'
+[5.944s] libtoolize: copying file 'm4/ltoptions.m4'
+[5.968s] libtoolize: copying file 'm4/ltsugar.m4'
+[5.992s] libtoolize: copying file 'm4/ltversion.m4'
+[6.016s] libtoolize: copying file 'm4/lt~obsolete.m4'
+[6.994s] configure.ac:17: warning: The macro `AC_PROG_CC_STDC' is obsolete.
+[6.994s] configure.ac:17: You should run autoupdate.
+[6.994s] ./lib/autoconf/c.m4:1666: AC_PROG_CC_STDC is expanded from...
+[6.994s] configure.ac:17: the top level
+[6.995s] configure.ac:81: warning: $as_echo is obsolete; use AS_ECHO(["message"]) instead
+[6.995s] lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+[6.995s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[6.995s] ./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+[6.995s] ./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+[6.995s] m4/ax_pthread.m4:88: AX_PTHREAD is expanded from...
+[6.995s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[6.995s] configure.ac:81: the top level
+[6.995s] configure.ac:434: warning: AC_CHECK_HEADERS($ixxat_header): you should use literals
+[6.995s] ./lib/autoconf/headers.m4:217: AC_CHECK_HEADERS is expanded from...
+[6.995s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[6.995s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[6.995s] configure.ac:434: the top level
+[8.025s] configure.ac:17: installing './compile'
+[8.027s] configure.ac:6: installing './config.guess'
+[8.029s] configure.ac:6: installing './config.sub'
+[8.030s] configure.ac:7: installing './install-sh'
+[8.032s] configure.ac:7: installing './missing'
+[8.034s] configure.ac:602: installing './tap-driver.sh'
+[8.156s] src/can/Makefile.am: installing './depcomp'
+[8.444s] parallel-tests: installing './test-driver'
+[8.571s] checking build system type... x86_64-pc-linux-gnu
+[8.571s] checking host system type... x86_64-pc-linux-gnu
+[8.571s] checking target system type... x86_64-pc-linux-gnu
+[8.578s] checking for a BSD-compatible install... /usr/bin/install -c
+[8.581s] checking whether build environment is sane... yes
+[8.588s] checking for a race-free mkdir -p... /usr/bin/mkdir -p
+[8.588s] checking for gawk... no
+[8.588s] checking for mawk... mawk
+[8.594s] checking whether make sets $(MAKE)... yes
+[8.599s] checking whether make supports nested variables... yes
+[8.602s] checking whether to enable maintainer-specific portions of Makefiles... yes
+[8.603s] checking whether make supports nested variables... (cached) yes
+[8.605s] checking for a sed that does not truncate output... /usr/bin/sed
+[8.606s] checking whether to build with code coverage support... no
+[8.607s] checking for valgrind... no
+[8.613s] checking whether make supports the include directive... yes (GNU style)
+[8.614s] checking for gcc... gcc
+[8.656s] checking whether the C compiler works... yes
+[8.656s] checking for C compiler default output file name... a.out
+[8.676s] checking for suffix of executables... 
+[8.700s] checking whether we are cross compiling... no
+[8.713s] checking for suffix of object files... o
+[8.724s] checking whether the compiler supports GNU C... yes
+[8.736s] checking whether gcc accepts -g... yes
+[8.765s] checking for gcc option to enable C11 features... none needed
+[8.784s] checking whether gcc understands -c and -o together... yes
+[8.808s] checking dependency style of gcc... gcc3
+[8.821s] checking for stdio.h... yes
+[8.836s] checking for stdlib.h... yes
+[8.851s] checking for string.h... yes
+[8.866s] checking for inttypes.h... yes
+[8.881s] checking for stdint.h... yes
+[8.896s] checking for strings.h... yes
+[8.912s] checking for sys/stat.h... yes
+[8.928s] checking for sys/types.h... yes
+[8.946s] checking for unistd.h... yes
+[8.966s] checking for wchar.h... yes
+[8.986s] checking for minix/config.h... no
+[9.007s] checking whether it is safe to define __EXTENSIONS__... yes
+[9.022s] checking whether _XOPEN_SOURCE should be defined... no
+[9.023s] checking for g++... g++
+[9.050s] checking whether the compiler supports GNU C++... yes
+[9.062s] checking whether g++ accepts -g... yes
+[9.104s] checking for g++ option to enable C++11 features... none needed
+[9.126s] checking dependency style of g++... gcc3
+[9.152s] checking whether g++ supports C++11 features with -std=gnu++11... yes
+[9.168s] checking how to print strings... printf
+[9.168s] checking for a sed that does not truncate output... (cached) /usr/bin/sed
+[9.170s] checking for grep that handles long lines and -e... /usr/bin/grep
+[9.171s] checking for egrep... /usr/bin/grep -E
+[9.172s] checking for fgrep... /usr/bin/grep -F
+[9.175s] checking for ld used by gcc... /usr/bin/ld
+[9.177s] checking if the linker (/usr/bin/ld) is GNU ld... yes
+[9.179s] checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+[9.201s] checking the name lister (/usr/bin/nm -B) interface... BSD nm
+[9.201s] checking whether ln -s works... yes
+[9.204s] checking the maximum length of command line arguments... 1572864
+[9.206s] checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+[9.206s] checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+[9.206s] checking for /usr/bin/ld option to reload object files... -r
+[9.207s] checking for objdump... objdump
+[9.207s] checking how to recognize dependent libraries... pass_all
+[9.207s] checking for dlltool... no
+[9.207s] checking how to associate runtime and link libraries... printf %s\n
+[9.207s] checking for ar... ar
+[9.233s] checking for archiver @FILE support... @
+[9.233s] checking for strip... strip
+[9.233s] checking for ranlib... ranlib
+[9.290s] checking command to parse /usr/bin/nm -B output from gcc object... ok
+[9.291s] checking for sysroot... no
+[9.295s] checking for a working dd... /usr/bin/dd
+[9.298s] checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+[9.308s] checking for mt... mt
+[9.311s] checking if mt is a manifest tool... no
+[9.338s] checking for dlfcn.h... yes
+[9.341s] checking for objdir... .libs
+[9.389s] checking if gcc supports -fno-rtti -fno-exceptions... no
+[9.389s] checking for gcc option to produce PIC... -fPIC -DPIC
+[9.402s] checking if gcc PIC flag -fPIC -DPIC works... yes
+[9.442s] checking if gcc static flag -static works... yes
+[9.462s] checking if gcc supports -c -o file.o... yes
+[9.462s] checking if gcc supports -c -o file.o... (cached) yes
+[9.469s] checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[9.485s] checking whether -lc should be explicitly linked in... no
+[9.519s] checking dynamic linker characteristics... GNU/Linux ld.so
+[9.519s] checking how to hardcode library paths into programs... immediate
+[9.519s] checking whether stripping libraries is possible... yes
+[9.520s] checking if libtool supports shared libraries... yes
+[9.520s] checking whether to build shared libraries... yes
+[9.520s] checking whether to build static libraries... no
+[9.539s] checking how to run the C++ preprocessor... g++ -std=gnu++11 -E
+[9.598s] checking for ld used by g++ -std=gnu++11... /usr/bin/ld -m elf_x86_64
+[9.600s] checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+[9.604s] checking whether the g++ -std=gnu++11 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[9.651s] checking for g++ -std=gnu++11 option to produce PIC... -fPIC -DPIC
+[9.665s] checking if g++ -std=gnu++11 PIC flag -fPIC -DPIC works... yes
+[9.707s] checking if g++ -std=gnu++11 static flag -static works... yes
+[9.727s] checking if g++ -std=gnu++11 supports -c -o file.o... yes
+[9.727s] checking if g++ -std=gnu++11 supports -c -o file.o... (cached) yes
+[9.727s] checking whether the g++ -std=gnu++11 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[9.730s] checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+[9.730s] checking how to hardcode library paths into programs... immediate
+[9.731s] checking for windres... no
+[9.772s] checking for timer_create in -lrt... yes
+[9.789s] checking how to run the C preprocessor... gcc -E
+[9.811s] checking whether gcc is Clang... no
+[9.840s] checking whether pthreads work with -pthread... yes
+[9.864s] checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+[9.864s] checking whether more special flags are required for pthreads... no
+[9.890s] checking for PTHREAD_PRIO_INHERIT... yes
+[9.890s] checking for pkg-config... /usr/bin/pkg-config
+[9.892s] checking pkg-config is at least version 0.9.0... yes
+[9.895s] checking for cpputest >= 4... no
+[9.915s] checking for valgrind/valgrind.h... no
+[9.945s] checking for linux/can.h... yes
+[9.971s] checking for linux/can/error.h... yes
+[9.983s] checking for bluetooth/bluetooth.h... no
+[9.995s] checking for bluetooth/rfcomm.h... no
+[10.053s] checking for library containing str2ba... no
+[10.082s] checking for ifaddrs.h... yes
+[10.108s] checking for linux/can/netlink.h... yes
+[10.135s] checking for linux/can/raw.h... yes
+[10.171s] checking for linux/rtnetlink.h... yes
+[10.197s] checking for sys/epoll.h... yes
+[10.224s] checking for sys/ioctl.h... yes
+[10.241s] checking for a Python interpreter with version >= 3.3... python3
+[10.241s] checking for python3... /usr/bin/python3
+[10.256s] checking for python3 version... 3.10
+[10.270s] checking for python3 platform... linux
+[10.270s] checking for GNU default python3 prefix... ${prefix}
+[10.270s] checking for GNU default python3 exec_prefix... ${exec_prefix}
+[10.296s] checking for python3 script directory (pythondir)... ${PYTHON_PREFIX}/lib/python3.10/site-packages
+[10.321s] checking for python3 extension module directory (pyexecdir)... ${PYTHON_EXEC_PREFIX}/lib/python3.10/site-packages
+[10.321s] checking for gawk... (cached) mawk
+[10.338s] checking that generated files are newer than configure... done
+[10.339s] configure: creating ./config.status
+[10.863s] config.status: creating doc/Doxyfile
+[10.878s] config.status: creating doc/Makefile
+[10.889s] config.status: creating include/Makefile
+[10.902s] config.status: creating pkgconfig/liblely-can.pc
+[10.915s] config.status: creating pkgconfig/liblely-co.pc
+[10.927s] config.status: creating pkgconfig/liblely-coapp.pc
+[10.939s] config.status: creating pkgconfig/liblely-ev.pc
+[10.951s] config.status: creating pkgconfig/liblely-io.pc
+[10.963s] config.status: creating pkgconfig/liblely-io2.pc
+[10.975s] config.status: creating pkgconfig/liblely-libc.pc
+[10.991s] config.status: creating pkgconfig/liblely-libc_rt.pc
+[11.003s] config.status: creating pkgconfig/liblely-tap.pc
+[11.015s] config.status: creating pkgconfig/liblely-util.pc
+[11.026s] config.status: creating pkgconfig/Makefile
+[11.037s] config.status: creating python/can/Makefile
+[11.049s] config.status: creating python/dcf-tools/Makefile
+[11.061s] config.status: creating python/io/Makefile
+[11.073s] config.status: creating python/Makefile
+[11.084s] config.status: creating src/can/Makefile
+[11.096s] config.status: creating src/co/Makefile
+[11.108s] config.status: creating src/co/version.rc
+[11.120s] config.status: creating src/coapp/Makefile
+[11.133s] config.status: creating src/coapp/version.rc
+[11.144s] config.status: creating src/ev/Makefile
+[11.157s] config.status: creating src/ev/version.rc
+[11.170s] config.status: creating src/io/Makefile
+[11.183s] config.status: creating src/io2/Makefile
+[11.196s] config.status: creating src/io2/version.rc
+[11.207s] config.status: creating src/libc/Makefile
+[11.220s] config.status: creating src/libc/version.rc
+[11.232s] config.status: creating src/tap/Makefile
+[11.245s] config.status: creating src/tap/version.rc
+[11.257s] config.status: creating src/util/Makefile
+[11.270s] config.status: creating src/util/version.rc
+[11.283s] config.status: creating src/Makefile
+[11.295s] config.status: creating tools/Makefile
+[11.307s] config.status: creating tools/version.dcf2c.rc
+[11.320s] config.status: creating test/co-nmt-master.dcf
+[11.333s] config.status: creating test/Makefile
+[11.344s] config.status: creating unit-tests/Makefile
+[11.356s] config.status: creating exec-wrapper.sh
+[11.365s] config.status: creating lcov-wrapper.sh
+[11.375s] config.status: creating Makefile
+[11.383s] config.status: creating config.h
+[11.390s] config.status: executing depfiles commands
+[12.128s] config.status: executing libtool commands
+[12.174s] [ 75%] [34m[1mPerforming build step for 'upstr_lely_core_libraries'[0m
+[12.185s] Making all in doc
+[12.187s] Making all in include
+[12.190s] Making all in src
+[12.196s] Making all in libc
+[12.198s]   CC       liblely_libc_la-clock.lo
+[12.198s]   CC       liblely_libc_la-getopt.lo
+[12.199s]   CC       liblely_libc_la-stdatomic.lo
+[12.199s]   CC       liblely_libc_la-stdio.lo
+[12.199s]   CC       liblely_libc_la-stdlib.lo
+[12.199s]   CC       liblely_libc_la-string.lo
+[12.200s]   CC       liblely_libc_la-strings.lo
+[12.200s]   CC       liblely_libc_la-sleep.lo
+[12.201s]   CC       liblely_libc_la-threads-pthread.lo
+[12.201s]   CC       liblely_libc_la-time.lo
+[12.248s]   CCLD     liblely-libc.la
+[12.306s] Making all in tap
+[12.309s]   CC       liblely_tap_la-tap.lo
+[12.368s]   CCLD     liblely-tap.la
+[12.434s] Making all in util
+[12.437s]   CC       liblely_util_la-bimap.lo
+[12.437s]   CC       liblely_util_la-mkjmp.lo
+[12.437s]   CC       liblely_util_la-sllist.lo
+[12.437s]   CC       liblely_util_la-spscring.lo
+[12.438s]   CC       liblely_util_la-bits.lo
+[12.438s]   CC       liblely_util_la-bitset.lo
+[12.439s]   CC       liblely_util_la-cmp.lo
+[12.439s]   CC       liblely_util_la-config.lo
+[12.439s]   CC       liblely_util_la-config_ini.lo
+[12.440s]   CC       liblely_util_la-daemon.lo
+[12.440s]   CC       liblely_util_la-diag.lo
+[12.440s]   CC       liblely_util_la-dllist.lo
+[12.440s]   CC       liblely_util_la-endian.lo
+[12.441s]   CC       liblely_util_la-errnum.lo
+[12.441s]   CXX      liblely_util_la-exception.lo
+[12.442s]   CC       liblely_util_la-fiber.lo
+[12.442s]   CC       liblely_util_la-fwbuf.lo
+[12.442s]   CC       liblely_util_la-frbuf.lo
+[12.442s]   CC       liblely_util_la-lex.lo
+[12.443s]   CC       liblely_util_la-membuf.lo
+[12.543s]   CC       liblely_util_la-pheap.lo
+[12.553s]   CC       liblely_util_la-print.lo
+[12.562s]   CC       liblely_util_la-rbtree.lo
+[12.564s]   CC       liblely_util_la-stop.lo
+[12.564s]   CC       liblely_util_la-time.lo
+[12.586s]   CC       liblely_util_la-ustring.lo
+[12.739s]   CXXLD    liblely-util.la
+[12.840s] Making all in can
+[12.843s]   CC       liblely_can_la-buf.lo
+[12.843s]   CC       liblely_can_la-msg.lo
+[12.843s]   CC       liblely_can_la-net.lo
+[12.843s]   CC       liblely_can_la-socket.lo
+[12.973s]   CCLD     liblely-can.la
+[13.051s] Making all in co
+[13.054s]   CC       liblely_co_la-crc.lo
+[13.054s]   CC       liblely_co_la-csdo.lo
+[13.054s]   CC       liblely_co_la-dcf.lo
+[13.055s]   CC       liblely_co_la-dev.lo
+[13.055s]   CC       liblely_co_la-emcy.lo
+[13.055s]   CC       liblely_co_la-gw.lo
+[13.056s]   CC       liblely_co_la-gw_txt.lo
+[13.056s]   CC       liblely_co_la-lss.lo
+[13.056s]   CC       liblely_co_la-nmt.lo
+[13.056s]   CC       liblely_co_la-nmt_boot.lo
+[13.056s]   CC       liblely_co_la-nmt_cfg.lo
+[13.057s]   CC       liblely_co_la-nmt_hb.lo
+[13.057s]   CC       liblely_co_la-nmt_srv.lo
+[13.057s]   CC       liblely_co_la-obj.lo
+[13.057s]   CC       liblely_co_la-pdo.lo
+[13.058s]   CC       liblely_co_la-rpdo.lo
+[13.059s]   CC       liblely_co_la-sdev.lo
+[13.059s]   CC       liblely_co_la-sdo.lo
+[13.059s]   CC       liblely_co_la-ssdo.lo
+[13.060s]   CC       liblely_co_la-sync.lo
+[13.134s]   CC       liblely_co_la-time.lo
+[13.200s]   CC       liblely_co_la-tpdo.lo
+[13.254s]   CC       liblely_co_la-type.lo
+[13.285s]   CC       liblely_co_la-val.lo
+[13.327s]   CC       liblely_co_la-wtm.lo
+[13.836s]   CCLD     liblely-co.la
+[13.962s] Making all in io
+[13.965s]   CC       liblely_io_la-addr.lo
+[13.965s]   CC       liblely_io_la-attr.lo
+[13.965s]   CC       liblely_io_la-can.lo
+[13.966s]   CC       liblely_io_la-file.lo
+[13.966s]   CC       liblely_io_la-handle.lo
+[13.966s]   CC       liblely_io_la-if.lo
+[13.967s]   CC       liblely_io_la-io.lo
+[13.967s]   CC       liblely_io_la-pipe.lo
+[13.967s]   CC       liblely_io_la-poll.lo
+[13.968s]   CC       liblely_io_la-rtnl.lo
+[13.968s]   CC       liblely_io_la-serial.lo
+[13.968s]   CC       liblely_io_la-sock.lo
+[14.243s]   CCLD     liblely-io.la
+[14.342s] Making all in ev
+[14.345s]   CC       liblely_ev_la-exec.lo
+[14.345s]   CC       liblely_ev_la-fiber_exec.lo
+[14.345s]   CC       liblely_ev_la-future.lo
+[14.346s]   CC       liblely_ev_la-poll.lo
+[14.346s]   CC       liblely_ev_la-loop.lo
+[14.346s]   CC       liblely_ev_la-std_exec.lo
+[14.346s]   CC       liblely_ev_la-strand.lo
+[14.347s]   CC       liblely_ev_la-task.lo
+[14.347s]   CC       liblely_ev_la-thrd_loop.lo
+[14.565s]   CCLD     liblely-ev.la
+[14.652s] Making all in io2
+[14.658s]   CC       liblely_io2_la-can.lo
+[14.659s]   CC       liblely_io2_la-can_rt.lo
+[14.659s]   CC       liblely_io2_la-can_net.lo
+[14.659s]   CC       liblely_io2_la-clock.lo
+[14.660s]   CC       liblely_io2_la-dev.lo
+[14.660s]   CC       liblely_io2_la-ctx.lo
+[14.660s]   CC       liblely_io2_la-sigset.lo
+[14.661s]   CC       liblely_io2_la-timer.lo
+[14.661s]   CC       liblely_io2_la-vcan.lo
+[14.661s]   CC       liblely_io2_la-tqueue.lo
+[14.662s]   CC       can/liblely_io2_la-msg.lo
+[14.662s]   CC       linux/liblely_io2_la-can_chan.lo
+[14.662s]   CC       linux/liblely_io2_la-can_ctrl.lo
+[14.663s]   CC       linux/liblely_io2_la-poll.lo
+[14.663s]   CC       linux/liblely_io2_la-timer.lo
+[14.663s]   CC       posix/liblely_io2_la-fd.lo
+[14.664s]   CC       posix/liblely_io2_la-io.lo
+[14.664s]   CC       sys/liblely_io2_la-clock.lo
+[14.665s]   CC       posix/liblely_io2_la-sigset.lo
+[14.665s]   CC       sys/liblely_io2_la-io.lo
+[14.722s]   CC       user/liblely_io2_la-can.lo
+[14.723s]   CC       user/liblely_io2_la-timer.lo
+[15.163s]   CCLD     liblely-io2.la
+[15.281s] Making all in coapp
+[15.283s]   CXX      liblely_coapp_la-device.lo
+[15.284s]   CXX      liblely_coapp_la-driver.lo
+[15.284s]   CXX      liblely_coapp_la-fiber_driver.lo
+[15.284s]   CXX      liblely_coapp_la-logical_driver.lo
+[15.284s]   CXX      liblely_coapp_la-loop_driver.lo
+[15.285s]   CXX      liblely_coapp_la-lss_master.lo
+[15.285s]   CXX      liblely_coapp_la-master.lo
+[15.285s]   CXX      liblely_coapp_la-node.lo
+[15.285s]   CXX      liblely_coapp_la-sdo.lo
+[15.286s]   CXX      liblely_coapp_la-sdo_error.lo
+[15.286s]   CXX      liblely_coapp_la-slave.lo
+[15.286s]   CXX      liblely_coapp_la-type_traits.lo
+[18.484s]   CXXLD    liblely-coapp.la
+[18.689s] Making all in python
+[18.695s] Making all in dcf-tools
+[18.698s] Making all in pkgconfig
+[18.715s] [ 87%] [34m[1mNo install step for 'upstr_lely_core_libraries'[0m
+[18.731s] [100%] [34m[1mCompleted 'upstr_lely_core_libraries'[0m
+[18.750s] [100%] Built target upstr_lely_core_libraries
+[18.757s] Invoked command in '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_viz:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_slam:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_description:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_bringup:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/canopen_utils:/home/starnus/starnus_robot/install/wms_bridge:/home/starnus/starnus_robot/install/starnus_viz:/home/starnus/starnus_robot/install/starnus_slam:/home/starnus/starnus_robot/install/starnus_sim:/home/starnus/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus_robot/install/starnus_navigation:/home/starnus/starnus_robot/install/starnus_driver:/home/starnus/starnus_robot/install/starnus_description:/home/starnus/starnus_robot/install/starnus_bringup:/home/starnus/starnus_robot/install/starnus_arduino_comms:/home/starnus/starnus_robot/install/starnus:/opt/ros/humble /usr/bin/cmake --build /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries -- -j20 -l20
+[18.778s] Invoking command in '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_viz:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_slam:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_description:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_bringup:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/canopen_utils:/home/starnus/starnus_robot/install/wms_bridge:/home/starnus/starnus_robot/install/starnus_viz:/home/starnus/starnus_robot/install/starnus_slam:/home/starnus/starnus_robot/install/starnus_sim:/home/starnus/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus_robot/install/starnus_navigation:/home/starnus/starnus_robot/install/starnus_driver:/home/starnus/starnus_robot/install/starnus_description:/home/starnus/starnus_robot/install/starnus_bringup:/home/starnus/starnus_robot/install/starnus_arduino_comms:/home/starnus/starnus_robot/install/starnus:/opt/ros/humble /usr/bin/cmake --install /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries
+[18.784s] -- Install configuration: ""
+[18.788s] Making install in doc
+[18.790s] gmake[1]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/doc'
+[18.791s] gmake[2]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/doc'
+[18.792s] gmake[2]: Nothing to be done for 'install-exec-am'.
+[18.792s] gmake[2]: Nothing to be done for 'install-data-am'.
+[18.792s] gmake[2]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/doc'
+[18.792s] gmake[1]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/doc'
+[18.792s] Making install in include
+[18.795s] gmake[1]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/include'
+[18.798s] gmake[2]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/include'
+[18.798s] gmake[2]: Nothing to be done for 'install-exec-am'.
+[18.800s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include'
+[18.806s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/co'
+[18.807s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/co.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/crc.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/csdo.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/csdo.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/dcf.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/dcf.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/dev.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/dev.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/emcy.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/emcy.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/gw.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/gw.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/gw_txt.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/gw_txt.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/lss.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/lss.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/nmt.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/nmt.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/obj.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/obj.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/pdo.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/rpdo.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/rpdo.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/sdev.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/sdev.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/sdo.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/ssdo.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/ssdo.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/sync.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/sync.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/time.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/time.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/tpdo.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/tpdo.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/type.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/type.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/val.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/val.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/wtm.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/wtm.hpp '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/co'
+[18.809s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/io2/posix'
+[18.810s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/posix/poll.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/posix/poll.hpp '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/io2/posix'
+[18.811s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/can'
+[18.811s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/can/buf.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/can/buf.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/can/err.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/can/msg.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/can/net.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/can/net.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/can/socket.h '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/can'
+[18.813s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/ev'
+[18.814s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/co_task.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/ev.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/exec.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/exec.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/fiber_exec.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/fiber_exec.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/future.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/future.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/loop.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/loop.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/poll.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/poll.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/std_exec.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/strand.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/strand.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/task.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/task.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/thrd_loop.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/ev/thrd_loop.hpp '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/ev'
+[18.815s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/co/def'
+[18.816s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/def/array.def /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/def/basic.def /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/def/cxx.def /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/def/time.def /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/def/type.def '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/co/def'
+[18.817s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely'
+[18.818s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/features.h '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely'
+[18.819s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/io'
+[18.820s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io/addr.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io/attr.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io/can.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io/can.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io/file.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io/file.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io/if.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io/io.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io/io.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io/pipe.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io/pipe.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io/poll.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io/poll.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io/serial.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io/serial.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io/sock.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io/sock.hpp '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/io'
+[18.822s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/util/def'
+[18.823s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/def/type.def '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/util/def'
+[18.824s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/co/detail'
+[18.824s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/detail/dev.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/co/detail/obj.h '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/co/detail'
+[18.826s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/io2/can'
+[18.827s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/can/err.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/can/err.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/can/msg.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/can/msg.hpp '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/io2/can'
+[18.828s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/coapp'
+[18.829s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/coapp/type_traits.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/coapp/device.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/coapp/driver.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/coapp/fiber_driver.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/coapp/logical_driver.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/coapp/loop_driver.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/coapp/lss_master.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/coapp/master.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/coapp/node.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/coapp/sdo.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/coapp/sdo_error.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/coapp/slave.hpp '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/coapp'
+[18.832s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/io2'
+[18.833s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/can.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/can.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/can_net.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/can_net.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/can_rt.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/can_rt.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/clock.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/clock.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/co_can.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/co_can_rt.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/co_sigset.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/co_timer.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/co_tqueue.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/ctx.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/ctx.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/dev.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/dev.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/event.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/event.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/io2.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/sigset.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/sigset.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/timer.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/timer.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/tqueue.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/tqueue.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/vcan.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/vcan.hpp '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/io2'
+[18.834s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/io2/linux'
+[18.835s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/linux/can.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/linux/can.hpp '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/io2/linux'
+[18.836s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/libc/sys'
+[18.837s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/libc/sys/types.h '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/libc/sys'
+[18.838s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/io2/user'
+[18.839s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/user/can.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/user/can.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/user/timer.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/user/timer.hpp '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/io2/user'
+[18.840s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/io2/sys'
+[18.841s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/sys/clock.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/sys/clock.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/sys/io.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/sys/io.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/sys/sigset.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/sys/sigset.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/sys/timer.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/io2/sys/timer.hpp '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/io2/sys'
+[18.843s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/tap'
+[18.844s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/tap/tap.h '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/tap'
+[18.845s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/util'
+[18.847s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/bimap.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/coroutine.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/coroutine.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/mkjmp.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/sllist.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/spscring.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/bits.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/bitset.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/c_call.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/c_type.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/chrono.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/cmp.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/config.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/daemon.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/diag.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/dllist.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/endian.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/errnum.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/error.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/exception.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/fiber.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/fiber.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/float.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/frbuf.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/fwbuf.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/invoker.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/lex.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/membuf.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/mutex.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/pheap.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/print.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/rbtree.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/result.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/stop.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/stop.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/time.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/ustring.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/util/util.h '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/util'
+[18.848s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/libc'
+[18.849s]  /usr/bin/install -c -m 644  /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/libc/chrono.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/libc/functional.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/libc/stdatomic.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/libc/stddef.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/libc/stdint.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/libc/stdio.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/libc/stdlib.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/libc/string.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/libc/strings.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/libc/threads.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/libc/time.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/libc/type_traits.hpp /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/libc/uchar.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/libc/unistd.h /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/upstream/include/lely/libc/utility.hpp '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/include/lely/libc'
+[18.851s] gmake[2]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/include'
+[18.851s] gmake[1]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/include'
+[18.851s] Making install in src
+[18.853s] gmake[1]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src'
+[18.856s] Making install in libc
+[18.861s] gmake[2]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/libc'
+[18.866s] gmake[3]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/libc'
+[18.867s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib'
+[18.868s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-libc.la '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib'
+[18.879s] libtool: install: /usr/bin/install -c .libs/liblely-libc.so.2.3.2 /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/liblely-libc.so.2.3.2
+[18.880s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib && { ln -s -f liblely-libc.so.2.3.2 liblely-libc.so.2 || { rm -f liblely-libc.so.2 && ln -s liblely-libc.so.2.3.2 liblely-libc.so.2; }; })
+[18.882s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib && { ln -s -f liblely-libc.so.2.3.2 liblely-libc.so || { rm -f liblely-libc.so && ln -s liblely-libc.so.2.3.2 liblely-libc.so; }; })
+[18.883s] libtool: install: /usr/bin/install -c .libs/liblely-libc.lai /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/liblely-libc.la
+[18.899s] libtool: finish: PATH="/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/starnus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib
+[18.900s] ----------------------------------------------------------------------
+[18.900s] Libraries have been installed in:
+[18.900s]    /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib
+[18.900s] 
+[18.900s] If you ever happen to want to link against installed libraries
+[18.900s] in a given directory, LIBDIR, you must either use libtool, and
+[18.900s] specify the full pathname of the library, or use the '-LLIBDIR'
+[18.900s] flag during linking and do at least one of the following:
+[18.900s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[18.900s]      during execution
+[18.900s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[18.900s]      during linking
+[18.900s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[18.901s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[18.901s] 
+[18.901s] See any operating system documentation about shared libraries for
+[18.901s] more information, such as the ld(1) and ld.so(8) manual pages.
+[18.901s] ----------------------------------------------------------------------
+[18.903s] gmake[3]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/libc'
+[18.903s] gmake[2]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/libc'
+[18.903s] Making install in tap
+[18.907s] gmake[2]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/tap'
+[18.911s] gmake[3]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/tap'
+[18.912s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib'
+[18.913s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-tap.la '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib'
+[18.928s] libtool: warning: relinking 'liblely-tap.la'
+[18.930s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/tap; /bin/bash "/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -pthread -g -O2 -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -no-undefined -version-number 2:3:2 -Wl,--as-needed -o liblely-tap.la -rpath /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib liblely_tap_la-tap.lo ../../src/libc/liblely-libc.la )
+[18.982s] libtool: install: /usr/bin/install -c .libs/liblely-tap.so.2.3.2T /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/liblely-tap.so.2.3.2
+[18.983s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib && { ln -s -f liblely-tap.so.2.3.2 liblely-tap.so.2 || { rm -f liblely-tap.so.2 && ln -s liblely-tap.so.2.3.2 liblely-tap.so.2; }; })
+[18.985s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib && { ln -s -f liblely-tap.so.2.3.2 liblely-tap.so || { rm -f liblely-tap.so && ln -s liblely-tap.so.2.3.2 liblely-tap.so; }; })
+[18.986s] libtool: install: /usr/bin/install -c .libs/liblely-tap.lai /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/liblely-tap.la
+[19.002s] libtool: finish: PATH="/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/starnus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib
+[19.003s] ----------------------------------------------------------------------
+[19.003s] Libraries have been installed in:
+[19.003s]    /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib
+[19.003s] 
+[19.003s] If you ever happen to want to link against installed libraries
+[19.003s] in a given directory, LIBDIR, you must either use libtool, and
+[19.003s] specify the full pathname of the library, or use the '-LLIBDIR'
+[19.003s] flag during linking and do at least one of the following:
+[19.003s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[19.003s]      during execution
+[19.004s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[19.004s]      during linking
+[19.004s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[19.004s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[19.004s] 
+[19.004s] See any operating system documentation about shared libraries for
+[19.004s] more information, such as the ld(1) and ld.so(8) manual pages.
+[19.004s] ----------------------------------------------------------------------
+[19.006s] gmake[3]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/tap'
+[19.006s] gmake[2]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/tap'
+[19.006s] Making install in util
+[19.020s] gmake[2]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/util'
+[19.034s] gmake[3]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/util'
+[19.035s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib'
+[19.036s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-util.la '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib'
+[19.051s] libtool: warning: relinking 'liblely-util.la'
+[19.053s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/util; /bin/bash "/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/libtool"  --silent --tag CXX --mode=relink g++ -std=gnu++11 -g -O2 -Wall -Wextra -pedantic -Werror -no-undefined -version-number 2:3:2 -Wl,--as-needed -o liblely-util.la -rpath /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib liblely_util_la-bimap.lo liblely_util_la-mkjmp.lo liblely_util_la-sllist.lo liblely_util_la-spscring.lo liblely_util_la-bits.lo liblely_util_la-bitset.lo liblely_util_la-cmp.lo liblely_util_la-config.lo liblely_util_la-config_ini.lo liblely_util_la-daemon.lo liblely_util_la-diag.lo liblely_util_la-dllist.lo liblely_util_la-endian.lo liblely_util_la-errnum.lo liblely_util_la-exception.lo liblely_util_la-fiber.lo liblely_util_la-frbuf.lo liblely_util_la-fwbuf.lo liblely_util_la-lex.lo liblely_util_la-membuf.lo liblely_util_la-pheap.lo liblely_util_la-print.lo liblely_util_la-rbtree.lo liblely_util_la-stop.lo liblely_util_la-time.lo liblely_util_la-ustring.lo ../../src/libc/liblely-libc.la -lm )
+[19.139s] libtool: install: /usr/bin/install -c .libs/liblely-util.so.2.3.2T /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/liblely-util.so.2.3.2
+[19.140s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib && { ln -s -f liblely-util.so.2.3.2 liblely-util.so.2 || { rm -f liblely-util.so.2 && ln -s liblely-util.so.2.3.2 liblely-util.so.2; }; })
+[19.142s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib && { ln -s -f liblely-util.so.2.3.2 liblely-util.so || { rm -f liblely-util.so && ln -s liblely-util.so.2.3.2 liblely-util.so; }; })
+[19.143s] libtool: install: /usr/bin/install -c .libs/liblely-util.lai /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/liblely-util.la
+[19.159s] libtool: finish: PATH="/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/starnus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib
+[19.160s] ----------------------------------------------------------------------
+[19.160s] Libraries have been installed in:
+[19.160s]    /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib
+[19.160s] 
+[19.160s] If you ever happen to want to link against installed libraries
+[19.160s] in a given directory, LIBDIR, you must either use libtool, and
+[19.160s] specify the full pathname of the library, or use the '-LLIBDIR'
+[19.161s] flag during linking and do at least one of the following:
+[19.161s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[19.161s]      during execution
+[19.161s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[19.161s]      during linking
+[19.161s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[19.161s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[19.161s] 
+[19.161s] See any operating system documentation about shared libraries for
+[19.161s] more information, such as the ld(1) and ld.so(8) manual pages.
+[19.161s] ----------------------------------------------------------------------
+[19.163s] gmake[3]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/util'
+[19.163s] gmake[2]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/util'
+[19.163s] Making install in can
+[19.168s] gmake[2]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/can'
+[19.175s] gmake[3]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/can'
+[19.175s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib'
+[19.176s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-can.la '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib'
+[19.192s] libtool: warning: relinking 'liblely-can.la'
+[19.193s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/can; /bin/bash "/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -pthread -g -O2 -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -no-undefined -version-number 1:9:2 -Wl,--as-needed -o liblely-can.la -rpath /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib liblely_can_la-buf.lo liblely_can_la-msg.lo liblely_can_la-net.lo liblely_can_la-socket.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la )
+[19.256s] libtool: install: /usr/bin/install -c .libs/liblely-can.so.1.9.2T /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/liblely-can.so.1.9.2
+[19.258s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib && { ln -s -f liblely-can.so.1.9.2 liblely-can.so.1 || { rm -f liblely-can.so.1 && ln -s liblely-can.so.1.9.2 liblely-can.so.1; }; })
+[19.259s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib && { ln -s -f liblely-can.so.1.9.2 liblely-can.so || { rm -f liblely-can.so && ln -s liblely-can.so.1.9.2 liblely-can.so; }; })
+[19.260s] libtool: install: /usr/bin/install -c .libs/liblely-can.lai /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/liblely-can.la
+[19.276s] libtool: finish: PATH="/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/starnus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib
+[19.278s] ----------------------------------------------------------------------
+[19.278s] Libraries have been installed in:
+[19.278s]    /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib
+[19.278s] 
+[19.278s] If you ever happen to want to link against installed libraries
+[19.278s] in a given directory, LIBDIR, you must either use libtool, and
+[19.278s] specify the full pathname of the library, or use the '-LLIBDIR'
+[19.278s] flag during linking and do at least one of the following:
+[19.278s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[19.278s]      during execution
+[19.278s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[19.278s]      during linking
+[19.278s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[19.278s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[19.278s] 
+[19.278s] See any operating system documentation about shared libraries for
+[19.278s] more information, such as the ld(1) and ld.so(8) manual pages.
+[19.278s] ----------------------------------------------------------------------
+[19.280s] gmake[3]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/can'
+[19.280s] gmake[2]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/can'
+[19.280s] Making install in co
+[19.292s] gmake[2]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/co'
+[19.304s] gmake[3]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/co'
+[19.304s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib'
+[19.305s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-co.la '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib'
+[19.322s] libtool: warning: relinking 'liblely-co.la'
+[19.323s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/co; /bin/bash "/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -pthread -g -O2 -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -no-undefined -version-number 2:3:2 -Wl,--as-needed -o liblely-co.la -rpath /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib liblely_co_la-crc.lo liblely_co_la-csdo.lo liblely_co_la-dcf.lo liblely_co_la-dev.lo liblely_co_la-emcy.lo liblely_co_la-gw.lo liblely_co_la-gw_txt.lo liblely_co_la-lss.lo liblely_co_la-nmt.lo liblely_co_la-nmt_boot.lo liblely_co_la-nmt_cfg.lo liblely_co_la-nmt_hb.lo liblely_co_la-nmt_srv.lo liblely_co_la-obj.lo liblely_co_la-pdo.lo liblely_co_la-rpdo.lo liblely_co_la-sdev.lo liblely_co_la-sdo.lo liblely_co_la-ssdo.lo liblely_co_la-sync.lo liblely_co_la-time.lo liblely_co_la-tpdo.lo liblely_co_la-type.lo liblely_co_la-val.lo liblely_co_la-wtm.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la )
+[19.411s] libtool: install: /usr/bin/install -c .libs/liblely-co.so.2.3.2T /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/liblely-co.so.2.3.2
+[19.413s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib && { ln -s -f liblely-co.so.2.3.2 liblely-co.so.2 || { rm -f liblely-co.so.2 && ln -s liblely-co.so.2.3.2 liblely-co.so.2; }; })
+[19.414s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib && { ln -s -f liblely-co.so.2.3.2 liblely-co.so || { rm -f liblely-co.so && ln -s liblely-co.so.2.3.2 liblely-co.so; }; })
+[19.416s] libtool: install: /usr/bin/install -c .libs/liblely-co.lai /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/liblely-co.la
+[19.431s] libtool: finish: PATH="/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/starnus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib
+[19.433s] ----------------------------------------------------------------------
+[19.433s] Libraries have been installed in:
+[19.433s]    /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib
+[19.433s] 
+[19.433s] If you ever happen to want to link against installed libraries
+[19.433s] in a given directory, LIBDIR, you must either use libtool, and
+[19.433s] specify the full pathname of the library, or use the '-LLIBDIR'
+[19.433s] flag during linking and do at least one of the following:
+[19.433s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[19.433s]      during execution
+[19.433s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[19.433s]      during linking
+[19.433s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[19.433s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[19.433s] 
+[19.433s] See any operating system documentation about shared libraries for
+[19.433s] more information, such as the ld(1) and ld.so(8) manual pages.
+[19.433s] ----------------------------------------------------------------------
+[19.436s] gmake[3]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/co'
+[19.436s] gmake[2]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/co'
+[19.436s] Making install in io
+[19.445s] gmake[2]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/io'
+[19.455s] gmake[3]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/io'
+[19.456s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib'
+[19.457s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-io.la '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib'
+[19.472s] libtool: warning: relinking 'liblely-io.la'
+[19.474s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/io; /bin/bash "/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -pthread -g -O2 -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -no-undefined -version-number 1:9:2 -Wl,--as-needed -o liblely-io.la -rpath /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib liblely_io_la-addr.lo liblely_io_la-attr.lo liblely_io_la-can.lo liblely_io_la-file.lo liblely_io_la-handle.lo liblely_io_la-if.lo liblely_io_la-io.lo liblely_io_la-pipe.lo liblely_io_la-poll.lo liblely_io_la-rtnl.lo liblely_io_la-serial.lo liblely_io_la-sock.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la )
+[19.548s] libtool: install: /usr/bin/install -c .libs/liblely-io.so.1.9.2T /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/liblely-io.so.1.9.2
+[19.549s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib && { ln -s -f liblely-io.so.1.9.2 liblely-io.so.1 || { rm -f liblely-io.so.1 && ln -s liblely-io.so.1.9.2 liblely-io.so.1; }; })
+[19.550s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib && { ln -s -f liblely-io.so.1.9.2 liblely-io.so || { rm -f liblely-io.so && ln -s liblely-io.so.1.9.2 liblely-io.so; }; })
+[19.552s] libtool: install: /usr/bin/install -c .libs/liblely-io.lai /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/liblely-io.la
+[19.567s] libtool: finish: PATH="/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/starnus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib
+[19.568s] ----------------------------------------------------------------------
+[19.568s] Libraries have been installed in:
+[19.569s]    /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib
+[19.569s] 
+[19.569s] If you ever happen to want to link against installed libraries
+[19.569s] in a given directory, LIBDIR, you must either use libtool, and
+[19.569s] specify the full pathname of the library, or use the '-LLIBDIR'
+[19.569s] flag during linking and do at least one of the following:
+[19.569s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[19.569s]      during execution
+[19.569s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[19.569s]      during linking
+[19.569s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[19.569s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[19.569s] 
+[19.569s] See any operating system documentation about shared libraries for
+[19.569s] more information, such as the ld(1) and ld.so(8) manual pages.
+[19.569s] ----------------------------------------------------------------------
+[19.571s] gmake[3]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/io'
+[19.571s] gmake[2]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/io'
+[19.571s] Making install in ev
+[19.577s] gmake[2]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/ev'
+[19.585s] gmake[3]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/ev'
+[19.585s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib'
+[19.586s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-ev.la '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib'
+[19.601s] libtool: warning: relinking 'liblely-ev.la'
+[19.603s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/ev; /bin/bash "/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -pthread -g -O2 -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -no-undefined -version-number 2:3:2 -Wl,--as-needed -o liblely-ev.la -rpath /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib liblely_ev_la-exec.lo liblely_ev_la-fiber_exec.lo liblely_ev_la-future.lo liblely_ev_la-loop.lo liblely_ev_la-poll.lo liblely_ev_la-std_exec.lo liblely_ev_la-strand.lo liblely_ev_la-task.lo liblely_ev_la-thrd_loop.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la )
+[19.667s] libtool: install: /usr/bin/install -c .libs/liblely-ev.so.2.3.2T /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/liblely-ev.so.2.3.2
+[19.668s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib && { ln -s -f liblely-ev.so.2.3.2 liblely-ev.so.2 || { rm -f liblely-ev.so.2 && ln -s liblely-ev.so.2.3.2 liblely-ev.so.2; }; })
+[19.669s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib && { ln -s -f liblely-ev.so.2.3.2 liblely-ev.so || { rm -f liblely-ev.so && ln -s liblely-ev.so.2.3.2 liblely-ev.so; }; })
+[19.671s] libtool: install: /usr/bin/install -c .libs/liblely-ev.lai /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/liblely-ev.la
+[19.686s] libtool: finish: PATH="/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/starnus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib
+[19.687s] ----------------------------------------------------------------------
+[19.687s] Libraries have been installed in:
+[19.687s]    /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib
+[19.687s] 
+[19.687s] If you ever happen to want to link against installed libraries
+[19.688s] in a given directory, LIBDIR, you must either use libtool, and
+[19.688s] specify the full pathname of the library, or use the '-LLIBDIR'
+[19.688s] flag during linking and do at least one of the following:
+[19.688s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[19.688s]      during execution
+[19.688s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[19.688s]      during linking
+[19.688s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[19.688s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[19.688s] 
+[19.688s] See any operating system documentation about shared libraries for
+[19.688s] more information, such as the ld(1) and ld.so(8) manual pages.
+[19.688s] ----------------------------------------------------------------------
+[19.690s] gmake[3]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/ev'
+[19.690s] gmake[2]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/ev'
+[19.690s] Making install in io2
+[19.702s] gmake[2]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/io2'
+[19.715s] gmake[3]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/io2'
+[19.716s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib'
+[19.717s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-io2.la '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib'
+[19.732s] libtool: warning: relinking 'liblely-io2.la'
+[19.734s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/io2; /bin/bash "/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -pthread -g -O2 -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -no-undefined -version-number 2:3:2 -Wl,--as-needed -o liblely-io2.la -rpath /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib can/liblely_io2_la-msg.lo linux/liblely_io2_la-can_chan.lo linux/liblely_io2_la-can_ctrl.lo linux/liblely_io2_la-poll.lo linux/liblely_io2_la-timer.lo posix/liblely_io2_la-fd.lo posix/liblely_io2_la-io.lo posix/liblely_io2_la-sigset.lo sys/liblely_io2_la-clock.lo sys/liblely_io2_la-io.lo user/liblely_io2_la-can.lo user/liblely_io2_la-timer.lo liblely_io2_la-can.lo liblely_io2_la-can_net.lo liblely_io2_la-can_rt.lo liblely_io2_la-clock.lo liblely_io2_la-ctx.lo liblely_io2_la-dev.lo liblely_io2_la-sigset.lo liblely_io2_la-timer.lo liblely_io2_la-tqueue.lo liblely_io2_la-vcan.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la ../../src/ev/liblely-ev.la -lrt )
+[19.849s] libtool: install: /usr/bin/install -c .libs/liblely-io2.so.2.3.2T /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/liblely-io2.so.2.3.2
+[19.850s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib && { ln -s -f liblely-io2.so.2.3.2 liblely-io2.so.2 || { rm -f liblely-io2.so.2 && ln -s liblely-io2.so.2.3.2 liblely-io2.so.2; }; })
+[19.852s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib && { ln -s -f liblely-io2.so.2.3.2 liblely-io2.so || { rm -f liblely-io2.so && ln -s liblely-io2.so.2.3.2 liblely-io2.so; }; })
+[19.853s] libtool: install: /usr/bin/install -c .libs/liblely-io2.lai /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/liblely-io2.la
+[19.869s] libtool: finish: PATH="/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/starnus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib
+[19.871s] ----------------------------------------------------------------------
+[19.871s] Libraries have been installed in:
+[19.871s]    /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib
+[19.871s] 
+[19.871s] If you ever happen to want to link against installed libraries
+[19.871s] in a given directory, LIBDIR, you must either use libtool, and
+[19.871s] specify the full pathname of the library, or use the '-LLIBDIR'
+[19.871s] flag during linking and do at least one of the following:
+[19.871s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[19.871s]      during execution
+[19.871s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[19.871s]      during linking
+[19.871s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[19.872s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[19.872s] 
+[19.872s] See any operating system documentation about shared libraries for
+[19.872s] more information, such as the ld(1) and ld.so(8) manual pages.
+[19.872s] ----------------------------------------------------------------------
+[19.873s] gmake[3]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/io2'
+[19.874s] gmake[2]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/io2'
+[19.874s] Making install in coapp
+[19.887s] gmake[2]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/coapp'
+[19.899s] gmake[3]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/coapp'
+[19.900s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib'
+[19.901s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-coapp.la '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib'
+[19.916s] libtool: warning: relinking 'liblely-coapp.la'
+[19.918s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/coapp; /bin/bash "/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/libtool"  --silent --tag CXX --mode=relink g++ -std=gnu++11 -g -O2 -Wall -Wextra -pedantic -Werror -no-undefined -version-number 2:3:2 -Wl,--as-needed -o liblely-coapp.la -rpath /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib liblely_coapp_la-device.lo liblely_coapp_la-driver.lo liblely_coapp_la-fiber_driver.lo liblely_coapp_la-logical_driver.lo liblely_coapp_la-loop_driver.lo liblely_coapp_la-lss_master.lo liblely_coapp_la-master.lo liblely_coapp_la-node.lo liblely_coapp_la-sdo.lo liblely_coapp_la-sdo_error.lo liblely_coapp_la-slave.lo liblely_coapp_la-type_traits.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la ../../src/ev/liblely-ev.la ../../src/io2/liblely-io2.la ../../src/co/liblely-co.la )
+[20.121s] libtool: install: /usr/bin/install -c .libs/liblely-coapp.so.2.3.2T /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/liblely-coapp.so.2.3.2
+[20.124s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib && { ln -s -f liblely-coapp.so.2.3.2 liblely-coapp.so.2 || { rm -f liblely-coapp.so.2 && ln -s liblely-coapp.so.2.3.2 liblely-coapp.so.2; }; })
+[20.126s] libtool: install: (cd /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib && { ln -s -f liblely-coapp.so.2.3.2 liblely-coapp.so || { rm -f liblely-coapp.so && ln -s liblely-coapp.so.2.3.2 liblely-coapp.so; }; })
+[20.127s] libtool: install: /usr/bin/install -c .libs/liblely-coapp.lai /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/liblely-coapp.la
+[20.143s] libtool: finish: PATH="/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/bin:/opt/ros/humble/bin:/home/starnus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib
+[20.144s] ----------------------------------------------------------------------
+[20.144s] Libraries have been installed in:
+[20.144s]    /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib
+[20.144s] 
+[20.144s] If you ever happen to want to link against installed libraries
+[20.144s] in a given directory, LIBDIR, you must either use libtool, and
+[20.144s] specify the full pathname of the library, or use the '-LLIBDIR'
+[20.144s] flag during linking and do at least one of the following:
+[20.144s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[20.144s]      during execution
+[20.144s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[20.144s]      during linking
+[20.144s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[20.144s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[20.144s] 
+[20.144s] See any operating system documentation about shared libraries for
+[20.144s] more information, such as the ld(1) and ld.so(8) manual pages.
+[20.144s] ----------------------------------------------------------------------
+[20.147s] gmake[3]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/coapp'
+[20.147s] gmake[2]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src/coapp'
+[20.149s] gmake[2]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src'
+[20.151s] gmake[3]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src'
+[20.151s] gmake[3]: Nothing to be done for 'install-exec-am'.
+[20.151s] gmake[3]: Nothing to be done for 'install-data-am'.
+[20.151s] gmake[3]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src'
+[20.151s] gmake[2]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src'
+[20.151s] gmake[1]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/src'
+[20.151s] Making install in python
+[20.152s] gmake[1]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/python'
+[20.155s] Making install in dcf-tools
+[20.156s] gmake[2]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/python/dcf-tools'
+[20.158s] gmake[3]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/python/dcf-tools'
+[20.330s] running egg_info
+[20.330s] creating dcf_tools.egg-info
+[20.330s] writing dcf_tools.egg-info/PKG-INFO
+[20.330s] writing dependency_links to dcf_tools.egg-info/dependency_links.txt
+[20.330s] writing entry points to dcf_tools.egg-info/entry_points.txt
+[20.330s] writing requirements to dcf_tools.egg-info/requires.txt
+[20.330s] writing top-level names to dcf_tools.egg-info/top_level.txt
+[20.331s] writing manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[20.332s] reading manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[20.332s] writing manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[20.332s] running build
+[20.332s] running build_py
+[20.332s] creating build
+[20.332s] creating build/lib
+[20.332s] creating build/lib/dcf
+[20.332s] copying dcf/lint.py -> build/lib/dcf
+[20.332s] copying dcf/cli.py -> build/lib/dcf
+[20.332s] copying dcf/__init__.py -> build/lib/dcf
+[20.332s] copying dcf/device.py -> build/lib/dcf
+[20.332s] copying dcf/parse.py -> build/lib/dcf
+[20.332s] copying dcf/print.py -> build/lib/dcf
+[20.333s] creating build/lib/dcfgen
+[20.333s] copying dcfgen/cli.py -> build/lib/dcfgen
+[20.333s] copying dcfgen/__init__.py -> build/lib/dcfgen
+[20.333s] creating build/lib/dcf2dev
+[20.333s] copying dcf2dev/cli.py -> build/lib/dcf2dev
+[20.333s] copying dcf2dev/__init__.py -> build/lib/dcf2dev
+[20.333s] copying dcf2dev/cdevice.py -> build/lib/dcf2dev
+[20.333s] creating build/lib/dcfgen/data
+[20.333s] copying dcfgen/data/master.dcf.em -> build/lib/dcfgen/data
+[20.333s] creating build/lib/dcf2dev/data
+[20.333s] copying dcf2dev/data/dev.h.em -> build/lib/dcf2dev/data
+[20.333s] copying dcf2dev/data/dev.c.em -> build/lib/dcf2dev/data
+[20.333s] running install
+[20.333s] running install_lib
+[20.334s] creating /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10
+[20.334s] creating /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages
+[20.334s] creating /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[20.334s] copying build/lib/dcf/lint.py -> /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[20.334s] copying build/lib/dcf/cli.py -> /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[20.334s] copying build/lib/dcf/__init__.py -> /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[20.334s] copying build/lib/dcf/device.py -> /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[20.334s] copying build/lib/dcf/parse.py -> /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[20.334s] copying build/lib/dcf/print.py -> /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf
+[20.334s] creating /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen
+[20.334s] copying build/lib/dcfgen/cli.py -> /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen
+[20.334s] creating /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/data
+[20.334s] copying build/lib/dcfgen/data/master.dcf.em -> /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/data
+[20.334s] copying build/lib/dcfgen/__init__.py -> /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen
+[20.334s] creating /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev
+[20.334s] copying build/lib/dcf2dev/cli.py -> /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev
+[20.334s] creating /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/data
+[20.335s] copying build/lib/dcf2dev/data/dev.h.em -> /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/data
+[20.335s] copying build/lib/dcf2dev/data/dev.c.em -> /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/data
+[20.335s] copying build/lib/dcf2dev/__init__.py -> /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev
+[20.335s] copying build/lib/dcf2dev/cdevice.py -> /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev
+[20.335s] byte-compiling /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf/lint.py to lint.cpython-310.pyc
+[20.337s] byte-compiling /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf/cli.py to cli.cpython-310.pyc
+[20.337s] byte-compiling /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf/__init__.py to __init__.cpython-310.pyc
+[20.337s] byte-compiling /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf/device.py to device.cpython-310.pyc
+[20.339s] byte-compiling /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf/parse.py to parse.cpython-310.pyc
+[20.340s] byte-compiling /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf/print.py to print.cpython-310.pyc
+[20.340s] byte-compiling /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/cli.py to cli.cpython-310.pyc
+[20.342s] byte-compiling /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/__init__.py to __init__.cpython-310.pyc
+[20.342s] byte-compiling /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/cli.py to cli.cpython-310.pyc
+[20.342s] byte-compiling /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/__init__.py to __init__.cpython-310.pyc
+[20.343s] byte-compiling /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf2dev/cdevice.py to cdevice.cpython-310.pyc
+[20.343s] running install_egg_info
+[20.344s] Copying dcf_tools.egg-info to /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.2-py3.10.egg-info
+[20.345s] running install_scripts
+[20.356s] Installing dcf2dev script to /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/bin/
+[20.356s] Installing dcfchk script to /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/bin/
+[20.356s] Installing dcfgen script to /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/bin/
+[20.357s] writing list of installed files to 'install.log'
+[20.371s] gmake[3]: Nothing to be done for 'install-data-am'.
+[20.371s] gmake[3]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/python/dcf-tools'
+[20.371s] gmake[2]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/python/dcf-tools'
+[20.372s] gmake[2]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/python'
+[20.374s] gmake[3]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/python'
+[20.374s] gmake[3]: Nothing to be done for 'install-exec-am'.
+[20.374s] gmake[3]: Nothing to be done for 'install-data-am'.
+[20.374s] gmake[3]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/python'
+[20.374s] gmake[2]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/python'
+[20.374s] gmake[1]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/python'
+[20.375s] Making install in pkgconfig
+[20.377s] gmake[1]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/pkgconfig'
+[20.378s] gmake[2]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/pkgconfig'
+[20.378s] gmake[2]: Nothing to be done for 'install-exec-am'.
+[20.379s]  /usr/bin/mkdir -p '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/pkgconfig'
+[20.381s]  /usr/bin/install -c -m 644 liblely-can.pc liblely-co.pc liblely-coapp.pc liblely-ev.pc liblely-io.pc liblely-io2.pc liblely-libc.pc liblely-libc_rt.pc liblely-tap.pc liblely-util.pc '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/pkgconfig'
+[20.383s] gmake[2]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/pkgconfig'
+[20.383s] gmake[1]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build/pkgconfig'
+[20.384s] gmake[1]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build'
+[20.388s] gmake[2]: Entering directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build'
+[20.388s] gmake[2]: Nothing to be done for 'install-exec-am'.
+[20.388s] gmake[2]: Nothing to be done for 'install-data-am'.
+[20.388s] gmake[2]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build'
+[20.388s] gmake[1]: Leaving directory '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries/build'
+[20.388s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/cmake
+[20.388s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_libraries-extras.cmake
+[20.389s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/environment/pythonpath.sh
+[20.389s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/environment/pythonpath.dsv
+[20.389s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.7-py3.10.egg-info
+[20.389s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.7-py3.10.egg-info/dependency_links.txt
+[20.389s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.7-py3.10.egg-info/top_level.txt
+[20.389s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.7-py3.10.egg-info/SOURCES.txt
+[20.389s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.7-py3.10.egg-info/PKG-INFO
+[20.389s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.7-py3.10.egg-info/entry_points.txt
+[20.389s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/cogen/
+[20.389s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/lib/cogen//cogen
+[20.389s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen
+[20.389s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen/cogen.py
+[20.389s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen/__init__.py
+[20.415s] Listing '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen'...
+[20.415s] Compiling '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen/__init__.py'...
+[20.415s] Compiling '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen/cogen.py'...
+[20.418s] -- Up-to-date: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/bin/
+[20.418s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/bin//cogen
+[20.418s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/environment/library_path.sh
+[20.418s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/environment/library_path.dsv
+[20.418s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/ament_index/resource_index/package_run_dependencies/lely_core_libraries
+[20.418s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/ament_index/resource_index/parent_prefix_path/lely_core_libraries
+[20.418s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/environment/ament_prefix_path.sh
+[20.418s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/environment/ament_prefix_path.dsv
+[20.418s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/environment/path.sh
+[20.418s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/environment/path.dsv
+[20.418s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/local_setup.bash
+[20.418s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/local_setup.sh
+[20.418s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/local_setup.zsh
+[20.418s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/local_setup.dsv
+[20.418s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/package.dsv
+[20.418s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/ament_index/resource_index/packages/lely_core_libraries
+[20.418s] -- Up-to-date: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_libraries-extras.cmake
+[20.419s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.419s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/cmake/ament_cmake_export_libraries-extras.cmake
+[20.419s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_librariesConfig.cmake
+[20.419s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_librariesConfig-version.cmake
+[20.419s] -- Installing: /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/install/lely_core_libraries/share/lely_core_libraries/package.xml
+[20.422s] Invoked command in '/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_viz:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_slam:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_driver:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_description:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus_bringup:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/starnus:/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/canopen_utils:/home/starnus/starnus_robot/install/wms_bridge:/home/starnus/starnus_robot/install/starnus_viz:/home/starnus/starnus_robot/install/starnus_slam:/home/starnus/starnus_robot/install/starnus_sim:/home/starnus/starnus_robot/install/starnus_rmf_panel:/home/starnus/starnus_robot/install/starnus_rmf_fleet_adapter:/home/starnus/starnus_robot/install/starnus_pallet_localisation:/home/starnus/starnus_robot/install/starnus_navigation:/home/starnus/starnus_robot/install/starnus_driver:/home/starnus/starnus_robot/install/starnus_description:/home/starnus/starnus_robot/install/starnus_bringup:/home/starnus/starnus_robot/install/starnus_arduino_comms:/home/starnus/starnus_robot/install/starnus:/opt/ros/humble /usr/bin/cmake --install /home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/lely_core_libraries

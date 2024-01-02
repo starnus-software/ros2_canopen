@@ -1,0 +1,29 @@
+/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/cli.py:183: UserWarning: invalid value for SupportedObjects in [MandatoryObjects]: SupportedObjects
+  if not dcf.lint(cfg) and not no_strict:
+/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/cli.py:183: UserWarning: SupportedObjects entry missing in [MandatoryObjects]
+  if not dcf.lint(cfg) and not no_strict:
+/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/cli.py:183: UserWarning: invalid value for SupportedObjects in [OptionalObjects]: SupportedObjects
+  if not dcf.lint(cfg) and not no_strict:
+/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/cli.py:183: UserWarning: SupportedObjects entry missing in [OptionalObjects]
+  if not dcf.lint(cfg) and not no_strict:
+/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/cli.py:183: UserWarning: invalid value for SupportedObjects in [ManufacturerObjects]: SupportedObjects
+  if not dcf.lint(cfg) and not no_strict:
+/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/cli.py:183: UserWarning: SupportedObjects entry missing in [ManufacturerObjects]
+  if not dcf.lint(cfg) and not no_strict:
+Traceback (most recent call last):
+  File "/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/bin/dcfgen", line 33, in <module>
+    sys.exit(load_entry_point('dcf-tools==2.3.2', 'console_scripts', 'dcfgen')())
+  File "/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/cli.py", line 565, in main
+    slave = Slave.from_config(name, cfg[name], options, args)
+  File "/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/cli.py", line 194, in from_config
+    slave = cls.from_dcf(str(cfg["dcf"]), env, args)
+  File "/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/cli.py", line 186, in from_dcf
+    return cls(cfg, env)
+  File "/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/cli.py", line 14, in __init__
+    super().__init__(cfg, env)
+  File "/home/starnus/starnus/starnus_robot_sim/starnus_robot/install/lely_core_libraries/lib/python3.10/site-packages/dcf/device.py", line 28, in __init__
+    for i in range(int(self.cfg[section]["SupportedObjects"], 10)):
+ValueError: invalid literal for int() with base 10: '0x91'
+gmake[2]: *** [CMakeFiles/gpl_bus.dir/build.make:74: gpl_bus] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/gpl_bus.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

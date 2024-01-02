@@ -1,0 +1,9 @@
+/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COHeartbeatID.idl
+/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/CONmtID.idl
+/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/CORead.idl
+/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COReadID.idl
+/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COWrite.idl
+/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COWriteID.idl
+/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COTargetDouble.idl
+/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/CONode.idl
+/home/starnus/starnus/starnus_robot_sim/starnus_robot/src/ros2_canopen/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:msg/COData.idl
